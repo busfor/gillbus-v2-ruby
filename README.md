@@ -1,5 +1,7 @@
 # Gillbus::V2
 
+[![Build Status](https://travis-ci.com/busfor/gillbus-v2-ruby.svg?branch=master)](https://travis-ci.com/busfor/gillbus-v2-ruby)
+
 ## Installation
 
 Add this line to your application's Gemfile:
