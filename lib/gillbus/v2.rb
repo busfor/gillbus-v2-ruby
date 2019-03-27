@@ -18,3 +18,4 @@ require "gillbus/v2/structs/location_additional_field"
 
 require "gillbus/v2/responses/base"
 require "gillbus/v2/responses/authenticate"
+require "gillbus/v2/responses/locations"
