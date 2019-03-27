@@ -10,12 +10,13 @@ module Gillbus::V2
         end
       end
 
-      def self.field(name, type, default: nil)
+      def self.field(name, type, from: name, default: nil)
         attr_reader name
         @fields_settings ||= []
         @fields_settings << {
           name: name,
           type: type,
+          from: from.to_s,
           default: default,
         }
       end
