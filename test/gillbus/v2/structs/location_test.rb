@@ -21,7 +21,7 @@ describe Gillbus::V2::Structs::Location do
     assert_equal false, object.deleted
     assert_equal(
       DateTime.parse("2019-03-13T10:15:46.436391Z"),
-      object.date_modified,
+      object.modified_at,
     )
   end
 

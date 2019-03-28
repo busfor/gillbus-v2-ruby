@@ -6,7 +6,7 @@ module Gillbus::V2
     field :type_id, :integer
     field :sub_type_id, :integer, from: "subtype_id"
 
-    field :date_modified, :date_time
+    field :modified_at, :date_time, from: "date_modified"
     field :deleted, :boolean
 
     field :latitude, :float

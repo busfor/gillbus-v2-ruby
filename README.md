@@ -147,7 +147,7 @@ end
 
 Each location contains fields:
 
-- `date_modified` - last modification time
+- `modified_at` - last modification time
 - `deleted` - if true then location has been removed
 
 ## Development
