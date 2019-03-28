@@ -1,0 +1,268 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://example.com/geo/v2/locations/page?number_page=1999&page_uuid=3d02e87c-3f53-4a57-8a9f-e2fda0f9c809
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      accept:
+      - application/json
+      Authorization:
+      - Bearer 5EBE2294ECD0E0F08EAB7690D2A6EE69
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      server:
+      - nginx/1.15.9
+      date:
+      - Thu, 28 Mar 2019 10:30:40 GMT
+      content-type:
+      - application/json
+      content-length:
+      - '43551'
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"pages_info":{"page_uuid":"3d02e87c-3f53-4a57-8a9f-e2fda0f9c809","expires_in":3600,"page_number":1999,"page_count":1999},"locations":[{"id":349004,"default_name":"Phon
+        Thong","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1226F58D2E0530300F00AFBD5"},{"id":16,"value":"1607365415CBEDA3E0508E5B35579BFF"}],"translations":[{"lang":"uk","name":"Пхон
+        Тонг","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Phon
+        Thong","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Пхон
+        Тхонг","country_name":"Таиланд","region_name":null}]},{"id":349007,"default_name":"Hat
+        Yai","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BA458D2E0530300F00AFBD5"},{"id":16,"value":"E5278C5ED3677F37E040B85960527488"}],"translations":[{"lang":"uk","name":"Хатьяй","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Hat
+        Yai","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Хатъяй","country_name":"Таиланд","region_name":null}]},{"id":349006,"default_name":"Khlong
+        Hai","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1227458D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khlong
+        Hai","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхлонг
+        Хай","country_name":"Таиланд","region_name":null}]},{"id":349001,"default_name":"Thang
+        Quian","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1226858D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Thang
+        Quian","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Тханг
+        Квиан","country_name":"Таиланд","region_name":null}]},{"id":349000,"default_name":"Pak
+        Pha Nang Fang Ta Vaw Knock","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1226658D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Pak
+        Pha Nang Fang Ta Vaw Knock","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Пак
+        Пха Нанг Фанг Та Ва Нок","country_name":"Таиланд","region_name":null}]},{"id":349003,"default_name":"Chong
+        Kham","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1226D58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Chong
+        Kham","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Чонг
+        Кхам","country_name":"Таиланд","region_name":null}]},{"id":349002,"default_name":"Su
+        Hai Hong Klok","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1226A58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Su
+        Hai Hong Klok","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Су
+        Хай Хонг Клок","country_name":"Таиланд","region_name":null}]},{"id":349013,"default_name":"Mae
+        La Noi","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1238E58D2E0530300F00AFBD5"},{"id":16,"value":"1A830C821D919C56E0508E5B3557AA15"}],"translations":[{"lang":"uk","name":"Ме
+        Ла Ноі","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Mae
+        La Noi","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Мэ
+        Ла Ной","country_name":"Таиланд","region_name":null}]},{"id":349012,"default_name":"Kum
+        Pha Wa Pee","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1238C58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Kum
+        Pha Wa Pee","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кум
+        Пха Ва Пи","country_name":"Таиланд","region_name":null}]},{"id":349015,"default_name":"Nong
+        Pry","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A123F958D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Nong
+        Pry","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Нонг
+        Пры","country_name":"Таиланд","region_name":null}]},{"id":349014,"default_name":"Khok
+        Cloy","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1239058D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khok
+        Cloy","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхок
+        Клой","country_name":"Таиланд","region_name":null}]},{"id":349009,"default_name":"Pray
+        Phra Ya","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11B9E58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Pray
+        Phra Ya","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Плай
+        Пхра Йа","country_name":"Таиланд","region_name":null}]},{"id":349008,"default_name":"Khau
+        Wong","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11B9B58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khau
+        Wong","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхау
+        Вонг","country_name":"Таиланд","region_name":null}]},{"id":349011,"default_name":"Nakhon
+        Sethammarate","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BA258D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Nakhon
+        Sethammarate","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Накхонситхаммарат","country_name":"Таиланд","region_name":null}]},{"id":349021,"default_name":"Nakhon
+        Ratchasima","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BA858D2E0530300F00AFBD5"},{"id":19,"value":"NAK"}],"translations":[{"lang":"uk","name":"Накхон
+        Ратчасіма","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Nakhon
+        Ratchasima","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Накхонратчасима","country_name":"Таиланд","region_name":null}]},{"id":349020,"default_name":"Hong
+        Kong","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1240958D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Hong
+        Kong","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Гонконг","country_name":"Таиланд","region_name":null}]},{"id":349023,"default_name":"Lom
+        Kau","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BAD58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Lom
+        Kau","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Лом
+        Кау","country_name":"Таиланд","region_name":null}]},{"id":349022,"default_name":"Chiang
+        Ngen","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BAA58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Chiang
+        Ngen","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Чианг
+        Нген","country_name":"Таиланд","region_name":null}]},{"id":349017,"default_name":"Sakeu","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A123FD58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Sakeu","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Сакэу","country_name":"Таиланд","region_name":null}]},{"id":349016,"default_name":"Myang
+        Kau","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A123FB58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Myang
+        Kau","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Мыанг
+        Кау","country_name":"Таиланд","region_name":null}]},{"id":349019,"default_name":"Phan
+        Phrau","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1240758D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Phan
+        Phrau","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Пхан
+        Пхрау","country_name":"Таиланд","region_name":null}]},{"id":349018,"default_name":"Wat
+        Phra Doo","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1240058D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Wat
+        Phra Doo","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ват
+        Пра Ду","country_name":"Таиланд","region_name":null}]},{"id":349029,"default_name":"Ian
+        Ta Khau","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BB958D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Ian
+        Ta Khau","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Йан
+        Та Кхау","country_name":"Таиланд","region_name":null}]},{"id":349028,"default_name":"Chiang
+        Hai","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BB758D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Chiang
+        Hai","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Чиан
+        Хай","country_name":"Таиланд","region_name":null}]},{"id":349031,"default_name":"Ra
+        Not","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BBD58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Ra
+        Not","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ра
+        Нот","country_name":"Таиланд","region_name":null}]},{"id":349030,"default_name":"Kam
+        Phang","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BBB58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Kam
+        Phang","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кам
+        Пхэнг","country_name":"Таиланд","region_name":null}]},{"id":349025,"default_name":"Sa
+        Khu","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BB158D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Sa
+        Khu","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Са
+        Кху","country_name":"Таиланд","region_name":null}]},{"id":349024,"default_name":"Ta
+        Lu Ban","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BAF58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Ta
+        Lu Ban","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Та
+        Лу Бан","country_name":"Таиланд","region_name":null}]},{"id":349027,"default_name":"Rath
+        Na Bu Rie","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BB558D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Rath
+        Na Bu Rie,","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Рат
+        На Бу Ри,","country_name":"Таиланд","region_name":null}]},{"id":349026,"default_name":"Pha
+        Nom Phray","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BB358D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Pha
+        Nom Phray","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Пха
+        Ном Пхрай","country_name":"Таиланд","region_name":null}]},{"id":349037,"default_name":"Khlung","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1241A58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khlung","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхлунг","country_name":"Таиланд","region_name":null}]},{"id":349036,"default_name":"Koh
+        Samui","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1241858D2E0530300F00AFBD5"},{"id":16,"value":"08A4BC3E78084276E0508E5B3557B6EB"}],"translations":[{"lang":"uk","name":"Ко
+        Самуі","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Koh
+        Samui","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Самуи","country_name":"Таиланд","region_name":null}]},{"id":349039,"default_name":"Che
+        Khe","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1241F58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Che
+        Khe","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Че
+        Хе","country_name":"Таиланд","region_name":null}]},{"id":349038,"default_name":"Ta
+        Lat","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1241C58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Ta
+        Lat","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Та
+        Лат","country_name":"Таиланд","region_name":null}]},{"id":349033,"default_name":"Takuapa","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1241258D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Takuapa","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Такуапа","country_name":"Таиланд","region_name":null}]},{"id":349032,"default_name":"Chiang
+        Mai","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11BBF58D2E0530300F00AFBD5"},{"id":19,"value":"CNX"}],"translations":[{"lang":"uk","name":"Чіанг
+        Май","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Chiang
+        Mai","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Чиангмай","country_name":"Таиланд","region_name":null}]},{"id":349035,"default_name":"Thakham","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1241658D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Thakham","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Тхакхам","country_name":"Таиланд","region_name":null}]},{"id":349034,"default_name":"Tha
+        Ton","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1241458D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Tha
+        Ton","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Тха
+        Тон","country_name":"Таиланд","region_name":null}]},{"id":349045,"default_name":"Tat
+        Phanom","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1242B58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Tat
+        Phanom","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Тат
+        Пханом","country_name":"Таиланд","region_name":null}]},{"id":349044,"default_name":"Phong
+        Myang","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1242958D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Phong
+        Myang","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Пхон
+        Мыанг","country_name":"Таиланд","region_name":null}]},{"id":349047,"default_name":"On
+        Mueang","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11CE358D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"On
+        Mueang","country_name":"Thailand","region_name":null},{"lang":"ru","name":"На
+        Мыанг","country_name":"Таиланд","region_name":null}]},{"id":349046,"default_name":"Xie
+        Nang Khha Nikhom","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1242E58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Xie
+        Nang Khha Nikhom","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Се
+        Нанг Кха Никхом","country_name":"Таиланд","region_name":null}]},{"id":349041,"default_name":"Yu
+        Wa","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1242358D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Yu
+        Wa","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Йу
+        Ва","country_name":"Таиланд","region_name":null}]},{"id":349040,"default_name":"Khuang
+        Pau","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1242158D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khuang
+        Pau","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхуанг
+        Пау","country_name":"Таиланд","region_name":null}]},{"id":349043,"default_name":"Bong
+        Boon","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1242758D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Bong
+        Boon","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Бынг
+        Бун","country_name":"Таиланд","region_name":null}]},{"id":349042,"default_name":"Thep
+        Kra Sa Three","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1242558D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Thep
+        Kra Sa Three","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Тхеп
+        Кра Са Три","country_name":"Таиланд","region_name":null}]},{"id":349053,"default_name":"Don
+        Sak","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D5E58D2E0530300F00AFBD5"}],"translations":[{"lang":"uk","name":"Дон
+        Сак","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Don
+        Sak","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Дон
+        Сак","country_name":"Таиланд","region_name":null}]},{"id":349052,"default_name":"Khu
+        Ra Bu Bu","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D5C58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khu
+        Ra Bu Bu","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кху
+        Ра Бу Ри","country_name":"Таиланд","region_name":null}]},{"id":349055,"default_name":"Ban
+        Kluwai","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D6258D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Ban
+        Kluwai","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Бан
+        Клуай","country_name":"Таиланд","region_name":null}]},{"id":349054,"default_name":"Banchang","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D6058D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Banchang","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Банчанг","country_name":"Таиланд","region_name":null}]},{"id":349049,"default_name":"Durand","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11CE858D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Durand","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Дуран","country_name":"Таиланд","region_name":null}]},{"id":349048,"default_name":"Nakhonsawan","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11CE658D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Nakhonsawan","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Накхонсаван","country_name":"Таиланд","region_name":null}]},{"id":349051,"default_name":"Watthana
+        Nakhon","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D5258D2E0530300F00AFBD5"},{"id":16,"value":"1A830C821E779C56E0508E5B3557AA15"}],"translations":[{"lang":"en","name":"Watthana
+        Nakhon","country_name":"Thailand","region_name":null},{"lang":"uk","name":"Ваттана
+        Накхон","country_name":"Таїланд","region_name":null},{"lang":"ru","name":"Ваттхана
+        Накхон","country_name":"Таиланд","region_name":null}]},{"id":349050,"default_name":"Ba
+        Na","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1256158D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Ba
+        Na","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ба
+        На","country_name":"Таиланд","region_name":null}]},{"id":349061,"default_name":"Khonkeng","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125D258D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khonkeng","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхонкэн","country_name":"Таиланд","region_name":null}]},{"id":349060,"default_name":"Sang
+        Khom","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125CF58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Sang
+        Khom","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Санг
+        Кхом","country_name":"Таиланд","region_name":null}]},{"id":349063,"default_name":"Tha
+        Sa La","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125DE58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Tha
+        Sa La","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Тха
+        Са Ла","country_name":"Таиланд","region_name":null}]},{"id":349057,"default_name":"Hong
+        Khan","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D6758D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Hong
+        Khan","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Хонг
+        Хан","country_name":"Таиланд","region_name":null}]},{"id":349056,"default_name":"Cha
+        Mai","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D6458D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Cha
+        Mai","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ча
+        Май","country_name":"Таиланд","region_name":null}]},{"id":349059,"default_name":"Viang","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125CC58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Viang","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Вианг","country_name":"Таиланд","region_name":null}]},{"id":349058,"default_name":"La
+        Mae","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A11D6958D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"La
+        Mae","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ла
+        Мэ","country_name":"Таиланд","region_name":null}]},{"id":349068,"default_name":"Hua
+        Sai","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125E958D2E0530300F00AFBD5"},{"id":16,"value":"1A830C821E939C56E0508E5B3557AA15"}],"translations":[{"lang":"uk","name":"Хуа
+        Саі","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Hua
+        Sai","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Хуа
+        Сай","country_name":"Таиланд","region_name":null}]},{"id":349071,"default_name":"Viang
+        Phang Kham","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125EF58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Viang
+        Phang Kham","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Вианг
+        Пханг Кхам","country_name":"Таиланд","region_name":null}]},{"id":349070,"default_name":"Bang
+        Nak","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125ED58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Bang
+        Nak","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Банг
+        Нак","country_name":"Таиланд","region_name":null}]},{"id":349065,"default_name":"On
+        Yai Am","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125E258D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"On
+        Yai Am","country_name":"Thailand","region_name":null},{"lang":"ru","name":"На
+        Йай Ам","country_name":"Таиланд","region_name":null}]},{"id":349064,"default_name":"Bang
+        Non","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125E058D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Bang
+        Non","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Банг
+        Нон","country_name":"Таиланд","region_name":null}]},{"id":349067,"default_name":"Nakhon
+        Chum","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125E758D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Nakhon
+        Chum","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Накхон
+        Чум","country_name":"Таиланд","region_name":null}]},{"id":349066,"default_name":"Den
+        Tea","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125E558D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Den
+        Tea","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ден
+        Чай","country_name":"Таиланд","region_name":null}]},{"id":349077,"default_name":"Pra
+        Chan Ta Kham","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1276B58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Pra
+        Chan Ta Kham","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Пра
+        Чан Та Кхам","country_name":"Таиланд","region_name":null}]},{"id":349076,"default_name":"Huai
+        Yot","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A126F958D2E0530300F00AFBD5"},{"id":16,"value":"1A830C821ED59C56E0508E5B3557AA15"}],"translations":[{"lang":"uk","name":"Хуай
+        Йот","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Huai
+        Yot","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Хуай
+        Йот","country_name":"Таиланд","region_name":null}]},{"id":349079,"default_name":"Rat
+        Yes","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1277458D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Rat
+        Yes","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Рат
+        Да","country_name":"Таиланд","region_name":null}]},{"id":349078,"default_name":"Bung","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1277258D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Bung","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Бунг","country_name":"Таиланд","region_name":null}]},{"id":349073,"default_name":"Hua
+        Hin","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A126F058D2E0530300F00AFBD5"},{"id":16,"value":"E5279B9FE6595655E040B859605209FF"},{"id":19,"value":"HHQ"}],"translations":[{"lang":"uk","name":"Хуа
+        Хін","country_name":"Таїланд","region_name":null},{"lang":"en","name":"Hua
+        Hin","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Хуахин","country_name":"Таиланд","region_name":null}]},{"id":349072,"default_name":"Yuan","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A125F158D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Yuan","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Йуан","country_name":"Таиланд","region_name":null}]},{"id":349075,"default_name":"Khum
+        Kau","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A126F758D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khum
+        Kau","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхум
+        Кау","country_name":"Таиланд","region_name":null}]},{"id":349074,"default_name":"Khyang
+        Nye","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A126F358D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Khyang
+        Nye","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Кхыанг
+        Най","country_name":"Таиланд","region_name":null}]},{"id":349085,"default_name":"Kae
+        Dae","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1278D58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Kae
+        Dae","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ка
+        Дэ","country_name":"Таиланд","region_name":null}]},{"id":349084,"default_name":"Thung
+        Wa","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1278B58D2E0530300F00AFBD5"},{"id":16,"value":"1A830C821D449C56E0508E5B3557AA15"}],"translations":[{"lang":"en","name":"Thung
+        Wa","country_name":"Thailand","region_name":null},{"lang":"uk","name":"Тунг
+        Ва","country_name":"Таїланд","region_name":null},{"lang":"ru","name":"Тхунг
+        Ва","country_name":"Таиланд","region_name":null}]},{"id":349087,"default_name":"Sa
+        Thing Mo","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A128AD58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Sa
+        Thing Mo","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Са
+        Тхинг Мо","country_name":"Таиланд","region_name":null}]},{"id":349086,"default_name":"Ban
+        Nang Sa Ta","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A128AA58D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Ban
+        Nang Sa Ta","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Бан
+        Нанг Са Та","country_name":"Таиланд","region_name":null}]},{"id":349081,"default_name":"Bau
+        Khau","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1278558D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Bau
+        Khau","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Бау
+        Кхау","country_name":"Таиланд","region_name":null}]},{"id":349080,"default_name":"Phra
+        Bath","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1278158D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Phra
+        Bath","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Пхра
+        Бат","country_name":"Таиланд","region_name":null}]},{"id":349083,"default_name":"Rong
+        Kham","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1278958D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Rong
+        Kham","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ронг
+        Кхам","country_name":"Таиланд","region_name":null}]},{"id":349082,"default_name":"Wat
+        Cha Thing Phra","type_id":6,"subtype_id":8,"latitude":null,"longitude":null,"parent_id":174,"deleted":false,"country_id":174,"timezone":"Asia/Bangkok","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":16,"value":"3E4273A1278758D2E0530300F00AFBD5"}],"translations":[{"lang":"en","name":"Wat
+        Cha Thing Phra","country_name":"Thailand","region_name":null},{"lang":"ru","name":"Ват
+        Ча Тхинг Пхра","country_name":"Таиланд","region_name":null}]}],"dictionaries":{"ru":{"location_types":[{"id":6,"name":"населённый
+        пункт"}],"location_subtypes":[{"id":8,"name":"город","short_name":"г."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"uk":{"location_types":[{"id":6,"name":"населений пункт"}],"location_subtypes":[{"id":8,"name":"місто","short_name":"м."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"en":{"location_types":[{"id":6,"name":"settlement"}],"location_subtypes":[{"id":8,"name":"city","short_name":"c."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"pl":{"location_types":[],"location_subtypes":[{"id":8,"name":"miasto","short_name":"m."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]}}}'
+    http_version:
+  recorded_at: Thu, 28 Mar 2019 10:30:40 GMT
+recorded_with: VCR 2.9.3

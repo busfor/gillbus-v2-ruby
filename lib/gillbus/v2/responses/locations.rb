@@ -2,36 +2,43 @@ module Gillbus::V2
   module Responses
     class Locations < Responses::Base
       def locations
-        @locations ||=
-          json_body["locations"].map do |item|
-            Structs::Location.from_raw_data(item)
-          end
+        @locations ||= (json_body["locations"] || []).map do |item|
+          Structs::Location.from_raw_data(item)
+        end
       end
 
       def location_types
-        @location_types ||=
-          formatted_dictionaries["location_types"].map do |_id, item|
+        @location_types ||= begin
+          data = formatted_dictionaries["location_types"]&.values || []
+          data.map do |item|
             Structs::LocationType.from_raw_data(item)
           end
+        end
       end
 
       def location_sub_types
-        @location_sub_types ||=
-          formatted_dictionaries["location_subtypes"].map do |_id, item|
+        @location_sub_types ||= begin
+          data = formatted_dictionaries["location_subtypes"]&.values || []
+          data.map do |item|
             Structs::LocationSubType.from_raw_data(item)
           end
+        end
       end
 
       def location_additional_fields
-        @location_additional_fields ||=
-          formatted_dictionaries["location_data_type"].map do |_id, item|
+        @location_additional_fields ||= begin
+          data = formatted_dictionaries["location_data_type"]&.values || []
+          data.map do |item|
             Structs::LocationAdditionalField.from_raw_data(item)
           end
+        end
       end
 
       def pagination
         @pagination ||=
-          Structs::Pagination.from_raw_data(json_body["pages_info"])
+          if json_body["pages_info"]
+            Structs::Pagination.from_raw_data(json_body["pages_info"])
+          end
       end
 
       private
@@ -43,6 +50,8 @@ module Gillbus::V2
 
       def format_dictionaries(dictionaries)
         result = {}
+        return result unless dictionaries
+
         dictionaries.each do |lang, dicts|
           dicts.each do |dict_key, dict|
             dict.each do |item|
@@ -60,6 +69,7 @@ module Gillbus::V2
             end
           end
         end
+
         result
       end
     end

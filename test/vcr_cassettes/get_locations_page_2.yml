@@ -1,0 +1,449 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://example.com/geo/v2/locations/page?number_page=2&page_uuid=3d02e87c-3f53-4a57-8a9f-e2fda0f9c809
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      accept:
+      - application/json
+      Authorization:
+      - Bearer 5EBE2294ECD0E0F08EAB7690D2A6EE69
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      server:
+      - nginx/1.15.9
+      date:
+      - Thu, 28 Mar 2019 10:30:40 GMT
+      content-type:
+      - application/json
+      content-length:
+      - '80723'
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"pages_info":{"page_uuid":"3d02e87c-3f53-4a57-8a9f-e2fda0f9c809","expires_in":3600,"page_number":2,"page_count":1999},"locations":[{"id":1611,"default_name":"Lviv","type_id":6,"subtype_id":8,"latitude":49.839678,"longitude":24.029709,"parent_id":1277,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4610100000"},{"id":16,"value":"188BC973EB3D4D9CE0508E5B35572FB4"},{"id":16,"value":"928F32EDA475026FE040A8C01E02395E"},{"id":19,"value":"LWO"},{"id":16,"value":"58EAA4AC04666816E0530300F00ABDE8"}],"translations":[{"lang":"uk","name":"Львів","country_name":"Україна","region_name":"Львівська
+        обл."},{"lang":"en","name":"Lviv","country_name":"Ukraine","region_name":"Lviv
+        obl."},{"lang":"ru","name":"Львов","country_name":"Украина","region_name":"Львовская
+        обл."},{"lang":"pl","name":"Lwów","country_name":"Ukraina","region_name":"Lwowski
+        obw."}]},{"id":1612,"default_name":"Boryslav","type_id":6,"subtype_id":8,"latitude":49.28933,"longitude":23.419061,"parent_id":1277,"deleted":true,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4610300000"}],"translations":[{"lang":"uk","name":"Борислав","country_name":"Україна","region_name":"Львівська
+        обл."},{"lang":"en","name":"Boryslav","country_name":"Ukraine","region_name":"Lviv
+        obl."},{"lang":"ru","name":"Борислав","country_name":"Украина","region_name":"Львовская
+        обл."},{"lang":"pl","name":"Borysław","country_name":"Ukraina","region_name":"Lwowski
+        obw."}]},{"id":1613,"default_name":"Drohobych","type_id":6,"subtype_id":8,"latitude":49.353671,"longitude":23.508956,"parent_id":1277,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4610600000"},{"id":16,"value":"A302250BE2F80B29E040A8C063036AF0"}],"translations":[{"lang":"uk","name":"Дрогобич","country_name":"Україна","region_name":"Львівська
+        обл."},{"lang":"en","name":"Drohobych","country_name":"Ukraine","region_name":"Lviv
+        obl."},{"lang":"ru","name":"Дрогобыч","country_name":"Украина","region_name":"Львовская
+        обл."},{"lang":"pl","name":"Drohobycz","country_name":"Ukraina","region_name":"Lwowski
+        obw."}]},{"id":1614,"default_name":"Morshyn","type_id":6,"subtype_id":8,"latitude":49.15171,"longitude":23.871956,"parent_id":1277,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4610700000"},{"id":16,"value":"C1280295A40362D9E040B859C143650C"}],"translations":[{"lang":"uk","name":"Моршин","country_name":"Україна","region_name":"Львівська
+        обл."},{"lang":"en","name":"Morshyn","country_name":"Ukraine","region_name":"Lviv
+        obl."},{"lang":"ru","name":"Моршин","country_name":"Украина","region_name":"Львовская
+        обл."},{"lang":"pl","name":"Morszyn","country_name":"Ukraina","region_name":"Lwowski
+        obw."}]},{"id":1615,"default_name":"Novyi Rozdil","type_id":6,"subtype_id":8,"latitude":49.469777,"longitude":24.150362,"parent_id":1277,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4610800000"},{"id":16,"value":"CC4156101A974B36E040B859C1431DD1"}],"translations":[{"lang":"uk","name":"Новий
+        Розділ","country_name":"Україна","region_name":"Львівська обл."},{"lang":"en","name":"Novyi
+        Rozdil","country_name":"Ukraine","region_name":"Lviv obl."},{"lang":"ru","name":"Новый
+        Роздол","country_name":"Украина","region_name":"Львовская обл."},{"lang":"pl","name":"Nowy
+        Rozdół","country_name":"Ukraina","region_name":"Lwowski obw."}]},{"id":1616,"default_name":"Sambir","type_id":6,"subtype_id":8,"latitude":49.521764,"longitude":23.199037,"parent_id":1633,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4610900000"},{"id":16,"value":"CA975BC2AFCDCF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Самбір","country_name":"Україна","region_name":"Львівська
+        обл. ,Самбірський р-н"},{"lang":"en","name":"Sambir","country_name":"Ukraine","region_name":"Lviv
+        obl. ,Sambirskyi ds."},{"lang":"ru","name":"Самбор","country_name":"Украина","region_name":"Львовская
+        обл. ,Самборский р-н"},{"lang":"pl","name":"Sambor","country_name":"Ukraina","region_name":"Lwowski
+        obw. ,Sambirs''kyi r-n"}]},{"id":1617,"default_name":"Stryi","type_id":6,"subtype_id":8,"latitude":49.258136,"longitude":23.842967,"parent_id":1637,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4611200000"},{"id":16,"value":"96CD187FFD139018E040A8C01E027C89"}],"translations":[{"lang":"uk","name":"Стрий","country_name":"Україна","region_name":"Львівська
+        обл. ,Стрийський р-н"},{"lang":"en","name":"Stryi","country_name":"Ukraine","region_name":"Lviv
+        obl. ,Stryiskyi ds."},{"lang":"ru","name":"Стрый","country_name":"Украина","region_name":"Львовская
+        обл. ,Стрыйский р-н"},{"lang":"pl","name":"Stryj","country_name":"Ukraina","region_name":"Lwowski
+        obw. ,Stryis''kyi r-n"}]},{"id":1618,"default_name":"Truskavets","type_id":6,"subtype_id":8,"latitude":49.278229,"longitude":23.506153,"parent_id":1277,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4611500000"},{"id":16,"value":"95B7332B13F9CC33E040A8C01E023E70"}],"translations":[{"lang":"en","name":"Truskavets","country_name":"Ukraine","region_name":"Lviv
+        obl."},{"lang":"pl","name":"Truskawiec","country_name":"Ukraina","region_name":"Lwowski
+        obw."},{"lang":"ru","name":"Трускавец","country_name":"Украина","region_name":"Львовская
+        обл."},{"lang":"uk","name":"Трускавець","country_name":"Україна","region_name":"Львівська
+        обл."}]},{"id":1619,"default_name":"Chervonohrad","type_id":6,"subtype_id":8,"latitude":50.386853,"longitude":24.228758,"parent_id":1277,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4611800000"},{"id":16,"value":"FF03FEBBF3ECE47FE040B85960522DB5"}],"translations":[{"lang":"uk","name":"Червоноград","country_name":"Україна","region_name":"Львівська
+        обл."},{"lang":"en","name":"Chervonohrad","country_name":"Ukraine","region_name":"Lviv
+        obl."},{"lang":"ru","name":"Червоноград","country_name":"Украина","region_name":"Львовская
+        обл."},{"lang":"pl","name":"Czerwonohrad","country_name":"Ukraina","region_name":"Lwowski
+        obw."}]},{"id":1640,"default_name":"Mykolayiv","type_id":6,"subtype_id":8,"latitude":46.975033,"longitude":31.994577,"parent_id":1278,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4810100000"},{"id":16,"value":"928F32EDA481026FE040A8C01E02395E"},{"id":19,"value":"NLV"}],"translations":[{"lang":"uk","name":"Миколаїв","country_name":"Україна","region_name":"Миколаївська
+        обл."},{"lang":"en","name":"Mykolayiv","country_name":"Ukraine","region_name":"Mykolaiv
+        obl."},{"lang":"ru","name":"Николаев","country_name":"Украина","region_name":"Николаевская
+        обл."},{"lang":"pl","name":"Mikołajów","country_name":"Ukraina","region_name":"Mikołajowski
+        obw."}]},{"id":1641,"default_name":"Voznesensk","type_id":6,"subtype_id":8,"latitude":47.560495,"longitude":31.336112,"parent_id":1278,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4810200000"},{"id":16,"value":"BC39483FA7B4CED3E040A8C0630364DA"}],"translations":[{"lang":"uk","name":"Вознесенськ","country_name":"Україна","region_name":"Миколаївська
+        обл."},{"lang":"en","name":"Voznesensk","country_name":"Ukraine","region_name":"Mykolaiv
+        obl."},{"lang":"ru","name":"Вознесенск","country_name":"Украина","region_name":"Николаевская
+        обл."},{"lang":"pl","name":"Wozneseńsk","country_name":"Ukraina","region_name":"Mikołajowski
+        obw."}]},{"id":1642,"default_name":"Ochakiv","type_id":6,"subtype_id":8,"latitude":46.613999,"longitude":31.545644,"parent_id":1278,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4810300000"},{"id":16,"value":"BC39483FA7ACCED3E040A8C0630364DA"}],"translations":[{"lang":"uk","name":"Очаків","country_name":"Україна","region_name":"Миколаївська
+        обл."},{"lang":"en","name":"Ochakiv","country_name":"Ukraine","region_name":"Mykolaiv
+        obl."},{"lang":"ru","name":"Очаков","country_name":"Украина","region_name":"Николаевская
+        обл."},{"lang":"pl","name":"Oczaków","country_name":"Ukraina","region_name":"Mikołajowski
+        obw."}]},{"id":1643,"default_name":"Pervomaisk","type_id":6,"subtype_id":8,"latitude":48.04886,"longitude":30.84538,"parent_id":1278,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4810400000"},{"id":16,"value":"CA975BC29B53CF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Первомайськ","country_name":"Україна","region_name":"Миколаївська
+        обл."},{"lang":"en","name":"Pervomaisk","country_name":"Ukraine","region_name":"Mykolaiv
+        obl."},{"lang":"ru","name":"Первомайск","country_name":"Украина","region_name":"Николаевская
+        обл."},{"lang":"pl","name":"Perwomajsk","country_name":"Ukraina","region_name":"Mikołajowski
+        obw."}]},{"id":1644,"default_name":"Yuzhnoukrayinsk","type_id":6,"subtype_id":8,"latitude":47.824272,"longitude":31.170426,"parent_id":1278,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"4810800000"},{"id":16,"value":"BC39483FA7B0CED3E040A8C0630364DA"}],"translations":[{"lang":"uk","name":"Южноукраїнськ","country_name":"Україна","region_name":"Миколаївська
+        обл."},{"lang":"en","name":"Yuzhnoukrayinsk","country_name":"Ukraine","region_name":"Mykolaiv
+        obl."},{"lang":"ru","name":"Южноукраинск","country_name":"Украина","region_name":"Николаевская
+        обл."},{"lang":"pl","name":"Jużnoukrajinśk","country_name":"Ukraina","region_name":"Mikołajowski
+        obw."}]},{"id":1664,"default_name":"Odesa","type_id":6,"subtype_id":8,"latitude":46.484579,"longitude":30.732597,"parent_id":1279,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5110100000"},{"id":16,"value":"21A794FDB7D173C5E0508E5B35576C18"},{"id":16,"value":"928F32EDA494026FE040A8C01E02395E"},{"id":19,"value":"ODS"},{"id":16,"value":"515BA2362AEE24B5E0530300F00A338B"},{"id":16,"value":"50D0B2872DA80332E0530300F00A38E9"},{"id":16,"value":"514BB6084710517EE0530300F00AA59E"}],"translations":[{"lang":"uk","name":"Одеса","country_name":"Україна","region_name":"Одеська
+        обл."},{"lang":"en","name":"Odesa","country_name":"Ukraine","region_name":"Odessa
+        obl."},{"lang":"ru","name":"Одесса","country_name":"Украина","region_name":"Одесская
+        обл."},{"lang":"pl","name":"Odessa","country_name":"Ukraina","region_name":"Odesski
+        obw."}]},{"id":1665,"default_name":"Balta","type_id":6,"subtype_id":8,"latitude":47.9370871,"longitude":29.6288401,"parent_id":1675,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5110200000"},{"id":16,"value":"C9E6748E73793F61E040B859C143473B"}],"translations":[{"lang":"uk","name":"Балта","country_name":"Україна","region_name":"Одеська
+        обл. ,Балтський р-н"},{"lang":"en","name":"Balta","country_name":"Ukraine","region_name":"Odessa
+        obl. ,Baltskyi ds."},{"lang":"ru","name":"Балта","country_name":"Украина","region_name":"Одесская
+        обл. ,Балтский р-н"},{"lang":"pl","name":"Bałta","country_name":"Ukraina","region_name":"Odesski
+        obw. ,Balts''kyi r-n"}]},{"id":1666,"default_name":"Bilhorod-Dnistrovskyi","type_id":6,"subtype_id":8,"latitude":46.186468,"longitude":30.333304,"parent_id":1676,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5110300000"},{"id":16,"value":"B4AA10DEEB122D94E040A8C063030FFD"}],"translations":[{"lang":"uk","name":"Білгород-Дністровський","country_name":"Україна","region_name":"Одеська
+        обл. ,Білгород-Дністровський р-н"},{"lang":"en","name":"Bilhorod-Dnistrovskyi","country_name":"Ukraine","region_name":"Odessa
+        obl. ,Bilhorod-Dnistrovskyi ds."},{"lang":"ru","name":"Белгород-Днестровский","country_name":"Украина","region_name":"Одесская
+        обл. ,Белгород-Днестровский р-н"},{"lang":"pl","name":"Bilhorod-Dnistrovskyi","country_name":"Ukraina","region_name":"Odesski
+        obw. ,Biłgorod-Dniestrovs''ky r-n"}]},{"id":1667,"default_name":"Bilyayivka","type_id":6,"subtype_id":8,"latitude":46.4894881,"longitude":30.2016232,"parent_id":1677,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5110500000"},{"id":16,"value":"C9F67422F3DF21D1E040B859C1432C7A"}],"translations":[{"lang":"uk","name":"Біляївка","country_name":"Україна","region_name":"Одеська
+        обл. ,Біляївський р-н"},{"lang":"en","name":"Bilyayivka","country_name":"Ukraine","region_name":"Odessa
+        obl. ,Bilyaivskyi ds."},{"lang":"ru","name":"Беляевка","country_name":"Украина","region_name":"Одесская
+        обл. ,Беляевский р-н"},{"lang":"pl","name":"Bielajewka","country_name":"Ukraina","region_name":"Odesski
+        obw. ,Bilyaivs''kyi r-n"}]},{"id":1668,"default_name":"Izmayil","type_id":6,"subtype_id":8,"latitude":45.350981,"longitude":28.836145,"parent_id":1279,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5110600000"},{"id":16,"value":"BC7375CDD82F016EE040A8C0630377D3"}],"translations":[{"lang":"uk","name":"Ізмаїл","country_name":"Україна","region_name":"Одеська
+        обл."},{"lang":"en","name":"Izmayil","country_name":"Ukraine","region_name":"Odessa
+        obl."},{"lang":"ru","name":"Измаил","country_name":"Украина","region_name":"Одесская
+        обл."},{"lang":"pl","name":"Izmaił","country_name":"Ukraina","region_name":"Odesski
+        obw."}]},{"id":1669,"default_name":"Chornomorsk","type_id":6,"subtype_id":8,"latitude":46.301785,"longitude":30.657039,"parent_id":1279,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5110800000"},{"id":16,"value":"D3F40C2B7E61653EE040B859605204C5"}],"translations":[{"lang":"en","name":"Chornomorsk","country_name":"Ukraine","region_name":"Odessa
+        obl."},{"lang":"pl","name":"Czarnomorsk","country_name":"Ukraina","region_name":"Odesski
+        obw."},{"lang":"ru","name":"Черноморск","country_name":"Украина","region_name":"Одесская
+        обл."},{"lang":"uk","name":"Чорноморськ","country_name":"Україна","region_name":"Одеська
+        обл."}]},{"id":1670,"default_name":"Podilsk","type_id":6,"subtype_id":8,"latitude":47.741955,"longitude":29.535115,"parent_id":1279,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5111200000"},{"id":16,"value":"37BEB92FC26307A3E0530300F00AC943"}],"translations":[{"lang":"uk","name":"Подільськ","country_name":"Україна","region_name":"Одеська
+        обл."},{"lang":"en","name":"Podilsk","country_name":"Ukraine","region_name":"Odessa
+        obl."},{"lang":"ru","name":"Подольск","country_name":"Украина","region_name":"Одесская
+        обл."},{"lang":"pl","name":"Podolsk","country_name":"Ukraina","region_name":"Odesski
+        obw."}]},{"id":1671,"default_name":"Teplodar","type_id":6,"subtype_id":8,"latitude":46.50628,"longitude":30.326495,"parent_id":1677,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5111500000"},{"id":16,"value":"1F5F3645ABC0A6D4E0508E5B35577AB5"}],"translations":[{"lang":"uk","name":"Теплодар","country_name":"Україна","region_name":"Одеська
+        обл. ,Біляївський р-н"},{"lang":"en","name":"Teplodar","country_name":"Ukraine","region_name":"Odessa
+        obl. ,Bilyaivskyi ds."},{"lang":"ru","name":"Теплодар","country_name":"Украина","region_name":"Одесская
+        обл. ,Беляевский р-н"},{"lang":"pl","name":"Tepłodar","country_name":"Ukraina","region_name":"Odesski
+        obw. ,Bilyaivs''kyi r-n"}]},{"id":1672,"default_name":"Yuzhne","type_id":6,"subtype_id":8,"latitude":46.623543,"longitude":31.101193,"parent_id":1279,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5111700000"},{"id":16,"value":"D37940B7A8EF0040E040B85960525338"}],"translations":[{"lang":"uk","name":"Южне","country_name":"Україна","region_name":"Одеська
+        обл."},{"lang":"en","name":"Yuzhne","country_name":"Ukraine","region_name":"Odessa
+        obl."},{"lang":"ru","name":"Южный","country_name":"Украина","region_name":"Одесская
+        обл."},{"lang":"pl","name":"Jużne","country_name":"Ukraina","region_name":"Odesski
+        obw."}]},{"id":1699,"default_name":"Poltava","type_id":6,"subtype_id":8,"latitude":49.588334,"longitude":34.551416,"parent_id":1280,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5310100000"},{"id":19,"value":"PLV"},{"id":16,"value":"928F32EDA4AF026FE040A8C01E02395E"}],"translations":[{"lang":"uk","name":"Полтава","country_name":"Україна","region_name":"Полтавська
+        обл."},{"lang":"en","name":"Poltava","country_name":"Ukraine","region_name":"Poltava
+        obl."},{"lang":"ru","name":"Полтава","country_name":"Украина","region_name":"Полтавская
+        обл."},{"lang":"pl","name":"Połtawa","country_name":"Ukraina","region_name":"Połtawski
+        obw."}]},{"id":1700,"default_name":"Horishni plavni","type_id":6,"subtype_id":8,"latitude":49.011725,"longitude":33.636023,"parent_id":1280,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5310200000"},{"id":16,"value":"37A73C057F3221C0E0530300F00A2626"}],"translations":[{"lang":"en","name":"Horishni
+        plavni","country_name":"Ukraine","region_name":"Poltava obl."},{"lang":"pl","name":"Horiszni
+        pławni","country_name":"Ukraina","region_name":"Połtawski obw."},{"lang":"ru","name":"Горишние
+        плавни","country_name":"Украина","region_name":"Полтавская обл."},{"lang":"uk","name":"Горішні
+        плавні","country_name":"Україна","region_name":"Полтавська обл."}]},{"id":1701,"default_name":"Hadyach","type_id":6,"subtype_id":8,"latitude":50.375193,"longitude":33.983474,"parent_id":1706,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5310300000"},{"id":16,"value":"A2E8148E0F61EF38E040A8C063035CA2"}],"translations":[{"lang":"uk","name":"Гадяч","country_name":"Україна","region_name":"Полтавська
+        обл. ,Гадяцький р-н"},{"lang":"en","name":"Hadyach","country_name":"Ukraine","region_name":"Poltava
+        obl. ,Hadyatskyi ds."},{"lang":"ru","name":"Гадяч","country_name":"Украина","region_name":"Полтавская
+        обл. ,Гадячский р-н"},{"lang":"pl","name":"Hadziacz","country_name":"Ukraina","region_name":"Połtawski
+        obw. ,Hadyats''kyi r-n"}]},{"id":1703,"default_name":"Lubny","type_id":6,"subtype_id":8,"latitude":50.01847,"longitude":32.988518,"parent_id":1280,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5310700000"},{"id":16,"value":"928F32EDA4AB026FE040A8C01E02395E"}],"translations":[{"lang":"uk","name":"Лубни","country_name":"Україна","region_name":"Полтавська
+        обл."},{"lang":"en","name":"Lubny","country_name":"Ukraine","region_name":"Poltava
+        obl."},{"lang":"ru","name":"Лубны","country_name":"Украина","region_name":"Полтавская
+        обл."},{"lang":"pl","name":"Łubnie","country_name":"Ukraina","region_name":"Połtawski
+        obw."}]},{"id":1704,"default_name":"Myrhorod","type_id":6,"subtype_id":8,"latitude":49.965752,"longitude":33.611455,"parent_id":1280,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5310900000"},{"id":19,"value":"MXR"},{"id":16,"value":"ACD21D9BC4FA8757E040A8C063036DC2"}],"translations":[{"lang":"uk","name":"Миргород","country_name":"Україна","region_name":"Полтавська
+        обл."},{"lang":"en","name":"Myrhorod","country_name":"Ukraine","region_name":"Poltava
+        obl."},{"lang":"ru","name":"Миргород","country_name":"Украина","region_name":"Полтавская
+        обл."},{"lang":"pl","name":"Mirhorod","country_name":"Ukraina","region_name":"Połtawski
+        obw."}]},{"id":1730,"default_name":"Rivne","type_id":6,"subtype_id":8,"latitude":50.619898,"longitude":26.251611,"parent_id":1281,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5610100000"},{"id":16,"value":"928F32EDA4C2026FE040A8C01E02395E"},{"id":19,"value":"RWN"}],"translations":[{"lang":"uk","name":"Рівне","country_name":"Україна","region_name":"Рівненська
+        обл."},{"lang":"en","name":"Rivne","country_name":"Ukraine","region_name":"Rivne
+        obl."},{"lang":"ru","name":"Ровно","country_name":"Украина","region_name":"Ровенская
+        обл."},{"lang":"pl","name":"Równe","country_name":"Ukraina","region_name":"Róweński
+        obw."}]},{"id":1731,"default_name":"Dubno","type_id":6,"subtype_id":8,"latitude":50.398781,"longitude":25.759649,"parent_id":1281,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5610300000"},{"id":16,"value":"93A7F46E0D03EEAAE040A8C01E02787D"}],"translations":[{"lang":"uk","name":"Дубно","country_name":"Україна","region_name":"Рівненська
+        обл."},{"lang":"en","name":"Dubno","country_name":"Ukraine","region_name":"Rivne
+        obl."},{"lang":"ru","name":"Дубно","country_name":"Украина","region_name":"Ровенская
+        обл."},{"lang":"pl","name":"Dubno","country_name":"Ukraina","region_name":"Róweński
+        obw."}]},{"id":1732,"default_name":"Varash","type_id":6,"subtype_id":8,"latitude":51.348237,"longitude":25.849283,"parent_id":1281,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5610700000"},{"id":16,"value":"39254EB8BBF95C7BE0530300F00AF343"}],"translations":[{"lang":"uk","name":"Вараш","country_name":"Україна","region_name":"Рівненська
+        обл."},{"lang":"en","name":"Varash","country_name":"Ukraine","region_name":"Rivne
+        obl."},{"lang":"ru","name":"Вараш","country_name":"Украина","region_name":"Ровенская
+        обл."},{"lang":"pl","name":"Kuznetsovsk","country_name":"Ukraina","region_name":"Róweński
+        obw."}]},{"id":1733,"default_name":"Ostroh","type_id":6,"subtype_id":8,"latitude":50.327775,"longitude":26.513668,"parent_id":1281,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5610900000"},{"id":16,"value":"CA975BC2B131CF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Острог","country_name":"Україна","region_name":"Рівненська
+        обл."},{"lang":"en","name":"Ostroh","country_name":"Ukraine","region_name":"Rivne
+        obl."},{"lang":"ru","name":"Острог","country_name":"Украина","region_name":"Ровенская
+        обл."},{"lang":"pl","name":"Ostróg","country_name":"Ukraina","region_name":"Róweński
+        obw."}]},{"id":1750,"default_name":"Sumy","type_id":6,"subtype_id":8,"latitude":50.907737,"longitude":34.79812,"parent_id":1282,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5910100000"},{"id":16,"value":"928F32EDA4C7026FE040A8C01E02395E"},{"id":19,"value":"UMY"}],"translations":[{"lang":"uk","name":"Суми","country_name":"Україна","region_name":"Сумська
+        обл."},{"lang":"en","name":"Sumy","country_name":"Ukraine","region_name":"Sumy
+        obl."},{"lang":"ru","name":"Сумы","country_name":"Украина","region_name":"Сумская
+        обл."},{"lang":"pl","name":"Sumy","country_name":"Ukraina","region_name":"Sumski
+        obw."}]},{"id":1751,"default_name":"Okhtyrka","type_id":6,"subtype_id":8,"latitude":50.30357,"longitude":34.892641,"parent_id":1282,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5910200000"},{"id":16,"value":"A2E8148E0F5DEF38E040A8C063035CA2"}],"translations":[{"lang":"uk","name":"Охтирка","country_name":"Україна","region_name":"Сумська
+        обл."},{"lang":"en","name":"Okhtyrka","country_name":"Ukraine","region_name":"Sumy
+        obl."},{"lang":"ru","name":"Ахтырка","country_name":"Украина","region_name":"Сумская
+        обл."},{"lang":"pl","name":"Ochtyrka","country_name":"Ukraina","region_name":"Sumski
+        obw."}]},{"id":1752,"default_name":"Hlukhiv","type_id":6,"subtype_id":8,"latitude":51.671964,"longitude":33.910953,"parent_id":1282,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5910300000"},{"id":16,"value":"DDC24E8BCF9465DCE040B859605274E9"}],"translations":[{"lang":"uk","name":"Глухів","country_name":"Україна","region_name":"Сумська
+        обл."},{"lang":"en","name":"Hlukhiv","country_name":"Ukraine","region_name":"Sumy
+        obl."},{"lang":"ru","name":"Глухов","country_name":"Украина","region_name":"Сумская
+        обл."},{"lang":"pl","name":"Głuchów","country_name":"Ukraina","region_name":"Sumski
+        obw."}]},{"id":1753,"default_name":"Konotop","type_id":6,"subtype_id":8,"latitude":51.2409432,"longitude":33.2050521,"parent_id":1282,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5910400000"},{"id":16,"value":"AB662FF3930230D4E040A8C0630303B1"}],"translations":[{"lang":"uk","name":"Конотоп","country_name":"Україна","region_name":"Сумська
+        обл."},{"lang":"en","name":"Konotop","country_name":"Ukraine","region_name":"Sumy
+        obl."},{"lang":"ru","name":"Конотоп","country_name":"Украина","region_name":"Сумская
+        обл."},{"lang":"pl","name":"Конотоп","country_name":"Ukraina","region_name":"Sumski
+        obw."}]},{"id":1754,"default_name":"Lebedyn","type_id":6,"subtype_id":8,"latitude":50.576518,"longitude":34.486459,"parent_id":1282,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5910500000"},{"id":16,"value":"C87A65F4AE1AE7F2E040B859C14355EE"}],"translations":[{"lang":"uk","name":"Лебедин","country_name":"Україна","region_name":"Сумська
+        обл."},{"lang":"en","name":"Lebedyn","country_name":"Ukraine","region_name":"Sumy
+        obl."},{"lang":"ru","name":"Лебедин","country_name":"Украина","region_name":"Сумская
+        обл."},{"lang":"pl","name":"Łebedyn","country_name":"Ukraina","region_name":"Sumski
+        obw."}]},{"id":1755,"default_name":"Romny","type_id":6,"subtype_id":8,"latitude":50.7415087,"longitude":33.4809526,"parent_id":1282,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5910700000"},{"id":16,"value":"ACD21D9BC5048757E040A8C063036DC2"}],"translations":[{"lang":"uk","name":"Ромни","country_name":"Україна","region_name":"Сумська
+        обл."},{"lang":"en","name":"Romny","country_name":"Ukraine","region_name":"Sumy
+        obl."},{"lang":"ru","name":"Ромны","country_name":"Украина","region_name":"Сумская
+        обл."},{"lang":"pl","name":"Romny","country_name":"Ukraina","region_name":"Sumski
+        obw."}]},{"id":1756,"default_name":"Shostka","type_id":6,"subtype_id":8,"latitude":51.865941,"longitude":33.476087,"parent_id":1282,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"5911000000"},{"id":16,"value":"CA975BC2AD24CF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Шостка","country_name":"Україна","region_name":"Сумська
+        обл."},{"lang":"en","name":"Shostka","country_name":"Ukraine","region_name":"Sumy
+        obl."},{"lang":"ru","name":"Шостка","country_name":"Украина","region_name":"Сумская
+        обл."},{"lang":"pl","name":"Szostka","country_name":"Ukraina","region_name":"Sumski
+        obw."}]},{"id":1775,"default_name":"Ternopil","type_id":6,"subtype_id":8,"latitude":49.553515,"longitude":25.594763,"parent_id":1283,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6110100000"},{"id":16,"value":"928F32EDA4CE026FE040A8C01E02395E"},{"id":19,"value":"TNL"}],"translations":[{"lang":"uk","name":"Тернопіль","country_name":"Україна","region_name":"Тернопільська
+        обл."},{"lang":"en","name":"Ternopil","country_name":"Ukraine","region_name":"Ternopil
+        obl."},{"lang":"ru","name":"Тернополь","country_name":"Украина","region_name":"Тернопольская
+        обл."},{"lang":"pl","name":"Tarnopol","country_name":"Ukraina","region_name":"Tarnopolski
+        obw."}]},{"id":1776,"default_name":"Chortkiv","type_id":6,"subtype_id":8,"latitude":49.016819,"longitude":25.797261,"parent_id":1794,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6110300000"},{"id":16,"value":"A3A2B61B07724618E040A8C063031EDB"}],"translations":[{"lang":"uk","name":"Чортків","country_name":"Україна","region_name":"Тернопільська
+        обл. ,Чортківський р-н"},{"lang":"en","name":"Chortkiv","country_name":"Ukraine","region_name":"Ternopil
+        obl. ,Chortkivskyi ds."},{"lang":"ru","name":"Чортков","country_name":"Украина","region_name":"Тернопольская
+        обл. ,Чортковский р-н"},{"lang":"pl","name":"Czortków","country_name":"Ukraina","region_name":"Tarnopolski
+        obw. ,Chortkivs''kyi r-n"}]},{"id":1777,"default_name":"Berezhany","type_id":6,"subtype_id":8,"latitude":49.446975,"longitude":24.941014,"parent_id":1779,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6110500000"},{"id":16,"value":"1F5F3645A684A6D4E0508E5B35577AB5"},{"id":16,"value":"DAA2DFF643CDE17FE040B859605216DD"}],"translations":[{"lang":"uk","name":"Бережани","country_name":"Україна","region_name":"Тернопільська
+        обл. ,Бережанський р-н"},{"lang":"en","name":"Berezhany","country_name":"Ukraine","region_name":"Ternopil
+        obl. ,Berezhanskyi ds."},{"lang":"ru","name":"Бережаны","country_name":"Украина","region_name":"Тернопольская
+        обл. ,Бережанский р-н"},{"lang":"pl","name":"Brzeżany","country_name":"Ukraina","region_name":"Tarnopolski
+        obw. ,Berezhans''kyi r-n"}]},{"id":1778,"default_name":"Kremenets","type_id":6,"subtype_id":8,"latitude":50.101105,"longitude":25.736769,"parent_id":1787,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6110700000"},{"id":16,"value":"AF935C8DA3D200D2E040A8C06303159A"}],"translations":[{"lang":"uk","name":"Кременець","country_name":"Україна","region_name":"Тернопільська
+        обл. ,Кременецький р-н"},{"lang":"en","name":"Kremenets","country_name":"Ukraine","region_name":"Ternopil
+        obl. ,Kremenetskyi ds."},{"lang":"ru","name":"Кременец","country_name":"Украина","region_name":"Тернопольская
+        обл. ,Кременецкий р-н"},{"lang":"pl","name":"Krzemieniec","country_name":"Ukraina","region_name":"Tarnopolski
+        obw. ,Krzemieniecki r-n"}]},{"id":1796,"default_name":"Kharkiv","type_id":6,"subtype_id":8,"latitude":49.9935,"longitude":36.230383,"parent_id":1284,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6310100000"},{"id":16,"value":"4E536DB9A55F0AAEE0530300F00A7F9E"},{"id":16,"value":"928F32EDA4D3026FE040A8C01E02395E"},{"id":19,"value":"HRK"},{"id":6,"value":"1225085002"},{"id":6,"value":"1822856000"},{"id":16,"value":"40DCEBA1C3A24983E0530300F00A6A30"},{"id":16,"value":"3AB7C7C9897C487EE0530300F00A8E26"}],"translations":[{"lang":"uk","name":"Харків","country_name":"Україна","region_name":"Харківська
+        обл."},{"lang":"en","name":"Kharkiv","country_name":"Ukraine","region_name":"Kharkiv
+        obl."},{"lang":"ru","name":"Харьков","country_name":"Украина","region_name":"Харьковская
+        обл."},{"lang":"pl","name":"Charków","country_name":"Ukraina","region_name":"Charkowski
+        obw."}]},{"id":1797,"default_name":"Izyum","type_id":6,"subtype_id":8,"latitude":49.193305,"longitude":37.280767,"parent_id":1284,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6310400000"},{"id":16,"value":"97E912DA337DD2EDE040A8C01E02751C"}],"translations":[{"lang":"uk","name":"Ізюм","country_name":"Україна","region_name":"Харківська
+        обл."},{"lang":"en","name":"Izyum","country_name":"Ukraine","region_name":"Kharkiv
+        obl."},{"lang":"ru","name":"Изюм","country_name":"Украина","region_name":"Харьковская
+        обл."},{"lang":"pl","name":"Izium","country_name":"Ukraina","region_name":"Charkowski
+        obw."}]},{"id":1798,"default_name":"Kupyansk","type_id":6,"subtype_id":8,"latitude":49.711869,"longitude":37.613494,"parent_id":1284,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6310700000"},{"id":16,"value":"C87A65F4AE20E7F2E040B859C14355EE"}],"translations":[{"lang":"uk","name":"Куп''янськ","country_name":"Україна","region_name":"Харківська
+        обл."},{"lang":"en","name":"Kupyansk","country_name":"Ukraine","region_name":"Kharkiv
+        obl."},{"lang":"ru","name":"Купянск","country_name":"Украина","region_name":"Харьковская
+        обл."},{"lang":"pl","name":"Kupiańsk","country_name":"Ukraina","region_name":"Charkowski
+        obw."}]},{"id":1799,"default_name":"Lozova","type_id":6,"subtype_id":8,"latitude":48.890042,"longitude":36.311368,"parent_id":1284,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6311000000"},{"id":16,"value":"CA975BC2ADE5CF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Лозова","country_name":"Україна","region_name":"Харківська
+        обл."},{"lang":"en","name":"Lozova","country_name":"Ukraine","region_name":"Kharkiv
+        obl."},{"lang":"ru","name":"Лозовая","country_name":"Украина","region_name":"Харьковская
+        обл."},{"lang":"pl","name":"Łozowa","country_name":"Ukraina","region_name":"Charkowski
+        obw."}]},{"id":1800,"default_name":"Lyubotyn","type_id":6,"subtype_id":8,"latitude":49.948307,"longitude":35.929539,"parent_id":1284,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6311200000"},{"id":16,"value":"A660847F41BFA7D6E040A8C063036E2B"}],"translations":[{"lang":"uk","name":"Люботин","country_name":"Україна","region_name":"Харківська
+        обл."},{"lang":"en","name":"Lyubotyn","country_name":"Ukraine","region_name":"Kharkiv
+        obl."},{"lang":"ru","name":"Люботин","country_name":"Украина","region_name":"Харьковская
+        обл."},{"lang":"pl","name":"Lubotyn","country_name":"Ukraina","region_name":"Charkowski
+        obw."}]},{"id":1801,"default_name":"Pervomaiskyi","type_id":6,"subtype_id":8,"latitude":49.372921,"longitude":36.21612,"parent_id":1284,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6311500000"},{"id":16,"value":"126EF7CE9A559834E0508E5B35579C6D"}],"translations":[{"lang":"uk","name":"Первомайський","country_name":"Україна","region_name":"Харківська
+        обл."},{"lang":"en","name":"Pervomaiskyi","country_name":"Ukraine","region_name":"Kharkiv
+        obl."},{"lang":"ru","name":"Первомайский","country_name":"Украина","region_name":"Харьковская
+        обл."},{"lang":"pl","name":"Perwomajski","country_name":"Ukraina","region_name":"Charkowski
+        obw."}]},{"id":1802,"default_name":"Chuhuyiv","type_id":6,"subtype_id":8,"latitude":49.835285,"longitude":36.679426,"parent_id":1284,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6312000000"},{"id":16,"value":"CA975BC2ADC5CF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Чугуїв","country_name":"Україна","region_name":"Харківська
+        обл."},{"lang":"en","name":"Chuhuyiv","country_name":"Ukraine","region_name":"Kharkiv
+        obl."},{"lang":"ru","name":"Чугуев","country_name":"Украина","region_name":"Харьковская
+        обл."},{"lang":"pl","name":"Czuhujiw","country_name":"Ukraina","region_name":"Charkowski
+        obw."}]},{"id":1830,"default_name":"Kherson","type_id":6,"subtype_id":8,"latitude":46.639057,"longitude":32.614522,"parent_id":1285,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6510100000"},{"id":19,"value":"KHE"},{"id":16,"value":"928F32EDA4DC026FE040A8C01E02395E"}],"translations":[{"lang":"uk","name":"Херсон","country_name":"Україна","region_name":"Херсонська
+        обл."},{"lang":"en","name":"Kherson","country_name":"Ukraine","region_name":"Kherson
+        obl."},{"lang":"ru","name":"Херсон","country_name":"Украина","region_name":"Херсонская
+        обл."},{"lang":"pl","name":"Chersoń","country_name":"Ukraina","region_name":"Chersoński
+        obw."}]},{"id":1831,"default_name":"Hola Prystan","type_id":6,"subtype_id":8,"latitude":46.533348,"longitude":32.532632,"parent_id":1285,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6510300000"},{"id":16,"value":"BD8F2C23EDE9C12FE040A8C063034D5A"}],"translations":[{"lang":"uk","name":"Гола
+        Пристань","country_name":"Україна","region_name":"Херсонська обл."},{"lang":"en","name":"Hola
+        Prystan","country_name":"Ukraine","region_name":"Kherson obl."},{"lang":"ru","name":"Голая
+        Пристань","country_name":"Украина","region_name":"Херсонская обл."},{"lang":"pl","name":"Hoła
+        Prystań","country_name":"Ukraina","region_name":"Chersoński obw."}]},{"id":1832,"default_name":"Kakhovka","type_id":6,"subtype_id":8,"latitude":46.8068,"longitude":33.480938,"parent_id":1845,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6510400000"},{"id":16,"value":"928F32EDA4D8026FE040A8C01E02395E"}],"translations":[{"lang":"uk","name":"Каховка","country_name":"Україна","region_name":"Херсонська
+        обл. ,Каховський р-н"},{"lang":"en","name":"Kakhovka","country_name":"Ukraine","region_name":"Kherson
+        obl. ,Kakhovskyi ds."},{"lang":"ru","name":"Каховка","country_name":"Украина","region_name":"Херсонская
+        обл. ,Каховский р-н"},{"lang":"pl","name":"Kachowka","country_name":"Ukraina","region_name":"Chersoński
+        obw. ,Kakhovs''kyi r-n"}]},{"id":1833,"default_name":"Nova kakhovka","type_id":6,"subtype_id":8,"latitude":46.750067,"longitude":33.359001,"parent_id":1285,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6510700000"},{"id":16,"value":"928F32EDA4DA026FE040A8C01E02395E"}],"translations":[{"lang":"uk","name":"Нова
+        каховка","country_name":"Україна","region_name":"Херсонська обл."},{"lang":"en","name":"Nova
+        kakhovka","country_name":"Ukraine","region_name":"Kherson obl."},{"lang":"ru","name":"Новая
+        каховка","country_name":"Украина","region_name":"Херсонская обл."},{"lang":"pl","name":"Nowa
+        kachowka","country_name":"Ukraina","region_name":"Chersoński obw."}]},{"id":1852,"default_name":"Khmelnytskyi","type_id":6,"subtype_id":8,"latitude":49.423013,"longitude":26.987161,"parent_id":1286,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6810100000"},{"id":16,"value":"928F32EDA4E4026FE040A8C01E02395E"},{"id":19,"value":"HMJ"}],"translations":[{"lang":"uk","name":"Хмельницький","country_name":"Україна","region_name":"Хмельницька
+        обл."},{"lang":"en","name":"Khmelnytskyi","country_name":"Ukraine","region_name":"Khmelnytskyi
+        obl."},{"lang":"ru","name":"Хмельницкий","country_name":"Украина","region_name":"Хмельницкая
+        обл."},{"lang":"pl","name":"Chmielnicki","country_name":"Ukraina","region_name":"Chmielnicki
+        obw."}]},{"id":1853,"default_name":"Kamyanets-Podilskyi","type_id":6,"subtype_id":8,"latitude":48.677736,"longitude":26.583063,"parent_id":1286,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6810400000"},{"id":16,"value":"928F32EDA4E6026FE040A8C01E02395E"},{"id":19,"value":"KCP"}],"translations":[{"lang":"en","name":"Kamyanets-Podilskyi","country_name":"Ukraine","region_name":"Khmelnytskyi
+        obl."},{"lang":"pl","name":"Kamieniec Podolski","country_name":"Ukraina","region_name":"Chmielnicki
+        obw."},{"lang":"ru","name":"Каменец-Подольский","country_name":"Украина","region_name":"Хмельницкая
+        обл."},{"lang":"uk","name":"Кам''янець-Подільський","country_name":"Україна","region_name":"Хмельницька
+        обл."}]},{"id":1854,"default_name":"Netishyn","type_id":6,"subtype_id":8,"latitude":50.337918,"longitude":26.63892,"parent_id":1286,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6810500000"},{"id":16,"value":"CC4156101A944B36E040B859C1431DD1"}],"translations":[{"lang":"uk","name":"Нетішин","country_name":"Україна","region_name":"Хмельницька
+        обл."},{"lang":"en","name":"Netishyn","country_name":"Ukraine","region_name":"Khmelnytskyi
+        obl."},{"lang":"ru","name":"Нетешин","country_name":"Украина","region_name":"Хмельницкая
+        обл."},{"lang":"pl","name":"Netiszyn","country_name":"Ukraina","region_name":"Chmielnicki
+        obw."}]},{"id":1855,"default_name":"Slavuta","type_id":6,"subtype_id":8,"latitude":50.302776,"longitude":26.868404,"parent_id":1870,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6810600000"},{"id":16,"value":"F2C032FB65AF9679E040B85960526871"}],"translations":[{"lang":"uk","name":"Славута","country_name":"Україна","region_name":"Хмельницька
+        обл. ,Славутський р-н"},{"lang":"en","name":"Slavuta","country_name":"Ukraine","region_name":"Khmelnytskyi
+        obl. ,Slavutskyi ds."},{"lang":"ru","name":"Славута","country_name":"Украина","region_name":"Хмельницкая
+        обл. ,Славутский р-н"},{"lang":"pl","name":"Sławuta","country_name":"Ukraina","region_name":"Chmielnicki
+        obw. ,Slavuts''kyi r-n"}]},{"id":1856,"default_name":"Shepetivka","type_id":6,"subtype_id":8,"latitude":50.185407,"longitude":27.068306,"parent_id":1286,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6810700000"},{"id":16,"value":"CA975BC2B0BBCF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Шепетівка","country_name":"Україна","region_name":"Хмельницька
+        обл."},{"lang":"en","name":"Shepetivka","country_name":"Ukraine","region_name":"Khmelnytskyi
+        obl."},{"lang":"ru","name":"Шепетовка","country_name":"Украина","region_name":"Хмельницкая
+        обл."},{"lang":"pl","name":"Szepietówka","country_name":"Ukraina","region_name":"Chmielnicki
+        obw."}]},{"id":1857,"default_name":"Starokostyantyniv","type_id":6,"subtype_id":8,"latitude":49.754158,"longitude":27.204391,"parent_id":1286,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"6810800000"},{"id":16,"value":"C91B89EE516CC86EE040B859C14312D2"}],"translations":[{"lang":"en","name":"Starokostyantyniv","country_name":"Ukraine","region_name":"Khmelnytskyi
+        obl."},{"lang":"pl","name":"Starokonstantynów","country_name":"Ukraina","region_name":"Chmielnicki
+        obw."},{"lang":"ru","name":"Староконстантинов","country_name":"Украина","region_name":"Хмельницкая
+        обл."},{"lang":"uk","name":"Старокостянтинів","country_name":"Україна","region_name":"Хмельницька
+        обл."}]},{"id":1879,"default_name":"Vatutine","type_id":6,"subtype_id":8,"latitude":49.01036,"longitude":31.045911,"parent_id":1287,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7110200000"},{"id":16,"value":"A6D8196875298E60E040A8C063037D6C"}],"translations":[{"lang":"uk","name":"Ватутіне","country_name":"Україна","region_name":"Черкаська
+        обл."},{"lang":"en","name":"Vatutine","country_name":"Ukraine","region_name":"Cherkasy
+        obl."},{"lang":"ru","name":"Ватутино","country_name":"Украина","region_name":"Черкасская
+        обл."},{"lang":"pl","name":"Watutynie","country_name":"Ukraina","region_name":"Czerkaski
+        obw."}]},{"id":1880,"default_name":"Kaniv","type_id":6,"subtype_id":8,"latitude":49.751033,"longitude":31.469691,"parent_id":1287,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7110300000"},{"id":16,"value":"C87A65F4AE2CE7F2E040B859C14355EE"}],"translations":[{"lang":"uk","name":"Канів","country_name":"Україна","region_name":"Черкаська
+        обл."},{"lang":"en","name":"Kaniv","country_name":"Ukraine","region_name":"Cherkasy
+        obl."},{"lang":"ru","name":"Канев","country_name":"Украина","region_name":"Черкасская
+        обл."},{"lang":"pl","name":"Kaniów","country_name":"Ukraina","region_name":"Czerkaski
+        obw."}]},{"id":1881,"default_name":"Zolotonosha","type_id":6,"subtype_id":8,"latitude":49.668796,"longitude":32.047515,"parent_id":1287,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7110400000"},{"id":16,"value":"A65EDE530E2D84CDE040A8C063033E01"}],"translations":[{"lang":"uk","name":"Золотоноша","country_name":"Україна","region_name":"Черкаська
+        обл."},{"lang":"en","name":"Zolotonosha","country_name":"Ukraine","region_name":"Cherkasy
+        obl."},{"lang":"ru","name":"Золотоноша","country_name":"Украина","region_name":"Черкасская
+        обл."},{"lang":"pl","name":"Złotonosza","country_name":"Ukraina","region_name":"Czerkaski
+        obw."}]},{"id":1882,"default_name":"Smila","type_id":6,"subtype_id":8,"latitude":49.227717,"longitude":31.85223,"parent_id":1896,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7110500000"},{"id":16,"value":"A6D81968751B8E60E040A8C063037D6C"}],"translations":[{"lang":"uk","name":"Сміла","country_name":"Україна","region_name":"Черкаська
+        обл. ,Смілянський р-н"},{"lang":"en","name":"Smila","country_name":"Ukraine","region_name":"Cherkasy
+        obl. ,Smilyanskyi ds."},{"lang":"ru","name":"Смела","country_name":"Украина","region_name":"Черкасская
+        обл. ,Смелянский р-н"},{"lang":"pl","name":"Smiła","country_name":"Ukraina","region_name":"Czerkaski
+        obw. ,Smilyans''kyi r-n"}]},{"id":1883,"default_name":"Uman","type_id":6,"subtype_id":8,"latitude":48.750807,"longitude":30.219694,"parent_id":1287,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7110800000"},{"id":16,"value":"928F32EDA4EF026FE040A8C01E02395E"}],"translations":[{"lang":"uk","name":"Умань","country_name":"Україна","region_name":"Черкаська
+        обл."},{"lang":"en","name":"Uman","country_name":"Ukraine","region_name":"Cherkasy
+        obl."},{"lang":"ru","name":"Умань","country_name":"Украина","region_name":"Черкасская
+        обл."},{"lang":"pl","name":"Umań","country_name":"Ukraina","region_name":"Czerkaski
+        obw."}]},{"id":1904,"default_name":"Chernivtsi","type_id":6,"subtype_id":8,"latitude":48.291682,"longitude":25.935216,"parent_id":1288,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7310100000"},{"id":19,"value":"CWC"},{"id":16,"value":"A2979E77785B491AE040A8C063037823"},{"id":16,"value":"928F32EDA4F8026FE040A8C01E02395E"}],"translations":[{"lang":"uk","name":"Чернівці","country_name":"Україна","region_name":"Чернівецька
+        обл."},{"lang":"en","name":"Chernivtsi","country_name":"Ukraine","region_name":"Chernivtsi
+        obl."},{"lang":"ru","name":"Черновцы","country_name":"Украина","region_name":"Черновицкая
+        обл."},{"lang":"pl","name":"Czerniowce","country_name":"Ukraina","region_name":"Czerniowiecki
+        obw."}]},{"id":1905,"default_name":"Novodnistrovsk","type_id":6,"subtype_id":8,"latitude":48.578111,"longitude":27.441672,"parent_id":1288,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7310600000"},{"id":16,"value":"A2E8148E0F54EF38E040A8C063035CA2"}],"translations":[{"lang":"en","name":"Novodnistrovsk","country_name":"Ukraine","region_name":"Chernivtsi
+        obl."},{"lang":"pl","name":"Nowodniestrowsk","country_name":"Ukraina","region_name":"Czerniowiecki
+        obw."},{"lang":"ru","name":"Новоднестровск","country_name":"Украина","region_name":"Черновицкая
+        обл."},{"lang":"uk","name":"Новодністровськ","country_name":"Україна","region_name":"Чернівецька
+        обл."}]},{"id":1917,"default_name":"Chernihiv","type_id":6,"subtype_id":8,"latitude":51.491512,"longitude":31.29832,"parent_id":1289,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7410100000"},{"id":16,"value":"9333D57400A635DFE040A8C01E027F44"},{"id":19,"value":"CEJ"}],"translations":[{"lang":"uk","name":"Чернігів","country_name":"Україна","region_name":"Чернігівська
+        обл."},{"lang":"en","name":"Chernihiv","country_name":"Ukraine","region_name":"Chernihiv
+        obl."},{"lang":"ru","name":"Чернигов","country_name":"Украина","region_name":"Черниговская
+        обл."},{"lang":"pl","name":"Czernihów","country_name":"Ukraina","region_name":"Czenihowski
+        obw."}]},{"id":1918,"default_name":"Nizhyn","type_id":6,"subtype_id":8,"latitude":51.046414,"longitude":31.880024,"parent_id":1289,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7410400000"},{"id":16,"value":"AD861E6A1FC705EDE040A8C06303292B"}],"translations":[{"lang":"uk","name":"Ніжин","country_name":"Україна","region_name":"Чернігівська
+        обл."},{"lang":"en","name":"Nizhyn","country_name":"Ukraine","region_name":"Chernihiv
+        obl."},{"lang":"ru","name":"Нежин","country_name":"Украина","region_name":"Черниговская
+        обл."},{"lang":"pl","name":"Nieżyn","country_name":"Ukraina","region_name":"Czenihowski
+        obw."}]},{"id":1919,"default_name":"Novhorod-Siverskyi","type_id":6,"subtype_id":8,"latitude":52.008718,"longitude":33.273643,"parent_id":1289,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7410500000"},{"id":16,"value":"E110E6A93489D85EE040B8596052460C"}],"translations":[{"lang":"uk","name":"Новгород-Сіверський","country_name":"Україна","region_name":"Чернігівська
+        обл."},{"lang":"en","name":"Novhorod-Siverskyi","country_name":"Ukraine","region_name":"Chernihiv
+        obl."},{"lang":"ru","name":"Новгород-Северский","country_name":"Украина","region_name":"Черниговская
+        обл."},{"lang":"pl","name":"Nowogród Siewierski","country_name":"Ukraina","region_name":"Czenihowski
+        obw."}]},{"id":1920,"default_name":"Pryluky","type_id":6,"subtype_id":8,"latitude":50.582564,"longitude":32.385595,"parent_id":1289,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"7410700000"},{"id":16,"value":"CA975BC2B1FACF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Прилуки","country_name":"Україна","region_name":"Чернігівська
+        обл."},{"lang":"en","name":"Pryluky","country_name":"Ukraine","region_name":"Chernihiv
+        obl."},{"lang":"ru","name":"Прилуки","country_name":"Украина","region_name":"Черниговская
+        обл."},{"lang":"pl","name":"Pryłuki","country_name":"Ukraina","region_name":"Czenihowski
+        obw."}]},{"id":1943,"default_name":"Odaya","type_id":6,"subtype_id":11,"latitude":48.4163129,"longitude":27.8583089,"parent_id":1266,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0510490001"}],"translations":[{"lang":"uk","name":"Одая","country_name":"Україна","region_name":"Вінницька
+        обл."},{"lang":"en","name":"Odaya","country_name":"Ukraine","region_name":"Vinnytsia
+        obl."},{"lang":"ru","name":"Одая","country_name":"Украина","region_name":"Винницкая
+        обл."},{"lang":"pl","name":"Odaya","country_name":"Ukraina","region_name":"Winnicki
+        obw."}]},{"id":1944,"default_name":"Sonyachne","type_id":6,"subtype_id":11,"latitude":48.4556363,"longitude":27.8500679,"parent_id":1266,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0510490003"}],"translations":[{"lang":"uk","name":"Сонячне","country_name":"Україна","region_name":"Вінницька
+        обл."},{"lang":"en","name":"Sonyachne","country_name":"Ukraine","region_name":"Vinnytsia
+        obl."},{"lang":"ru","name":"Солнечное","country_name":"Украина","region_name":"Винницкая
+        обл."},{"lang":"pl","name":"Sonyachne","country_name":"Ukraina","region_name":"Winnicki
+        obw."}]},{"id":1945,"default_name":"Zaliznychne","type_id":6,"subtype_id":9,"latitude":49.7484706,"longitude":28.7860351,"parent_id":1266,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0510541000"}],"translations":[{"lang":"uk","name":"Залізничне","country_name":"Україна","region_name":"Вінницька
+        обл."},{"lang":"en","name":"Zaliznychne","country_name":"Ukraine","region_name":"Vinnytsia
+        obl."},{"lang":"ru","name":"Зализничное","country_name":"Украина","region_name":"Винницкая
+        обл."},{"lang":"pl","name":"Zaliznyczne","country_name":"Ukraina","region_name":"Winnicki
+        obw."}]},{"id":1946,"default_name":"Hubnyk","type_id":6,"subtype_id":11,"latitude":48.6204595,"longitude":29.3277246,"parent_id":1300,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0510690001"},{"id":16,"value":"C9FA24CA32CAAFF4E040B859C1435641"}],"translations":[{"lang":"uk","name":"Губник","country_name":"Україна","region_name":"Вінницька
+        обл. ,Гайсинський р-н"},{"lang":"en","name":"Hubnyk","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Haisynskyi ds."},{"lang":"ru","name":"Губник","country_name":"Украина","region_name":"Винницкая
+        обл. ,Гайсинский р-н"},{"lang":"pl","name":"Hubnik","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Hajsyński r-n"}]},{"id":1948,"default_name":"Ruzhytske","type_id":6,"subtype_id":11,"latitude":48.621927,"longitude":29.295283,"parent_id":1266,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0510690003"}],"translations":[{"lang":"uk","name":"Ружицьке","country_name":"Україна","region_name":"Вінницька
+        обл."},{"lang":"en","name":"Ruzhytske","country_name":"Ukraine","region_name":"Vinnytsia
+        obl."},{"lang":"ru","name":"Ружицкое","country_name":"Украина","region_name":"Винницкая
+        обл."},{"lang":"pl","name":"Ruzhytske","country_name":"Ukraina","region_name":"Winnicki
+        obw."}]},{"id":1949,"default_name":"Bar","type_id":6,"subtype_id":8,"latitude":49.077144,"longitude":27.67996,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520210100"},{"id":16,"value":"C9E6748E737D3F61E040B859C143473B"}],"translations":[{"lang":"uk","name":"Бар","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Bar","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Бар","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Bar","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1950,"default_name":"Kopaihorod","type_id":6,"subtype_id":9,"latitude":48.854094,"longitude":27.7996666,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520255300"},{"id":16,"value":"28847207969E0535E0530300F00A179F"}],"translations":[{"lang":"uk","name":"Копайгород","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Kopaihorod","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Копайгород","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Kopajhorod","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1951,"default_name":"Kopai","type_id":6,"subtype_id":11,"latitude":48.8815813,"longitude":27.7569454,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520255303"},{"id":16,"value":"CA975BC2B0A8CF7FE040B859C14327B3"}],"translations":[{"lang":"uk","name":"Копай","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Kopai","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Копай","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Kopai","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1952,"default_name":"Perelisky","type_id":6,"subtype_id":10,"latitude":48.8534772,"longitude":27.8501835,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520255306"}],"translations":[{"lang":"uk","name":"Переліски","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Perelisky","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Перелески","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Perelisky","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1953,"default_name":"Ukrayinske","type_id":6,"subtype_id":10,"latitude":48.8223453,"longitude":27.8378028,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520255309"},{"id":16,"value":"53F10165316E6961E0530300F00AEBB0"}],"translations":[{"lang":"uk","name":"Українське","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Ukrayinske","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Украинское","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Ukrains''ke","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1954,"default_name":"Shevchenkove","type_id":6,"subtype_id":10,"latitude":48.875084,"longitude":27.8287652,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520255312"},{"id":16,"value":"53F10165316F6961E0530300F00AEBB0"}],"translations":[{"lang":"uk","name":"Шевченкове","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Shevchenkove","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Шевченково","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Shevchenkove","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1955,"default_name":"Shypynky","type_id":6,"subtype_id":10,"latitude":48.874233,"longitude":27.785112,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520255315"},{"id":16,"value":"28847207976E0535E0530300F00A179F"}],"translations":[{"lang":"uk","name":"Шипинки","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"ru","name":"Шипинки","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"en","name":"Shypynky","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"pl","name":"Shypynky","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1956,"default_name":"Antonivka","type_id":6,"subtype_id":10,"latitude":49.086871,"longitude":27.7858707,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280101"}],"translations":[{"lang":"uk","name":"Антонівка","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Antonivka","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Антоновка","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Antonivka","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1957,"default_name":"Hlynyanka","type_id":6,"subtype_id":10,"latitude":49.0691258,"longitude":27.7805447,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280102"}],"translations":[{"lang":"uk","name":"Глинянка","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Hlynyanka","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Глинянка","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Hlynyanka","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1958,"default_name":"Shyroke","type_id":6,"subtype_id":10,"latitude":49.0792559,"longitude":27.7534702,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280105"},{"id":16,"value":"53F1016531706961E0530300F00AEBB0"}],"translations":[{"lang":"uk","name":"Широке","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Shyroke","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Широкое","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Shyroke","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1959,"default_name":"Balky","type_id":6,"subtype_id":10,"latitude":49.0603223,"longitude":27.6831431,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280201"}],"translations":[{"lang":"uk","name":"Балки","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Balky","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Балки","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Bałki","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1960,"default_name":"Adamivka","type_id":6,"subtype_id":10,"latitude":49.0407389,"longitude":27.6376142,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280203"}],"translations":[{"lang":"uk","name":"Адамівка","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Adamivka","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Адамовка","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Adamivka","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1961,"default_name":"Iosypivtsi","type_id":6,"subtype_id":10,"latitude":49.0350854,"longitude":27.6620439,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280205"}],"translations":[{"lang":"uk","name":"Йосипівці","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Iosypivtsi","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Иосиповцы","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Yosypivtsi","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1962,"default_name":"Okladne","type_id":6,"subtype_id":10,"latitude":49.0493069,"longitude":27.6466789,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280207"}],"translations":[{"lang":"uk","name":"Окладне","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Okladne","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Окладное","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Okladne","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1963,"default_name":"Chemerysy-Barski","type_id":6,"subtype_id":10,"latitude":49.0652195,"longitude":27.6590147,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280209"},{"id":16,"value":"1F5F3645AC4DA6D4E0508E5B35577AB5"}],"translations":[{"lang":"uk","name":"Чемериси-Барські","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Chemerysy-Barski","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Чемерисы-Барские","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Czemerysy-Barskie","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1964,"default_name":"Verkhivka","type_id":6,"subtype_id":10,"latitude":48.9022053,"longitude":27.6541168,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280401"}],"translations":[{"lang":"uk","name":"Верхівка","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Verkhivka","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Верховка","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Verkhivka","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1965,"default_name":"Prymoshhanytsya","type_id":6,"subtype_id":10,"latitude":48.9032747,"longitude":27.663107,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280403"}],"translations":[{"lang":"uk","name":"Примощаниця","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Prymoshhanytsya","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Примощаница","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Prymoshchanytsya","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1966,"default_name":"Voinashivka","type_id":6,"subtype_id":10,"latitude":49.0496004,"longitude":27.7191443,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280601"}],"translations":[{"lang":"uk","name":"Войнашівка","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Voinashivka","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Войнашовка","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Voinashivka","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1967,"default_name":"Bar","type_id":6,"subtype_id":11,"latitude":49.038752,"longitude":27.714221,"parent_id":1297,"deleted":true,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280603"},{"id":16,"value":"53F1016531716961E0530300F00AEBB0"}],"translations":[{"lang":"uk","name":"Бар","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Bar","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Бар","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Bar","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1968,"default_name":"Zamozhne","type_id":6,"subtype_id":10,"latitude":49.0259683,"longitude":27.7273301,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280605"}],"translations":[{"lang":"uk","name":"Заможне","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Zamozhne","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Заможное","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Zamozhne","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1969,"default_name":"Zatoky","type_id":6,"subtype_id":10,"latitude":49.0219297,"longitude":27.7021889,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280607"}],"translations":[{"lang":"uk","name":"Затоки","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Zatoky","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Затоки","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Zatoki","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1970,"default_name":"Kanonytske","type_id":6,"subtype_id":10,"latitude":49.0164159,"longitude":27.7233904,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280609"}],"translations":[{"lang":"uk","name":"Каноницьке","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Kanonytske","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Каноницкое","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Kanonyts''ke","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1971,"default_name":"Myrne","type_id":6,"subtype_id":10,"latitude":49.0291186,"longitude":27.6929065,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280611"}],"translations":[{"lang":"uk","name":"Мирне","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Myrne","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Мирное","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Myrne","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]},{"id":1972,"default_name":"Mizhlissya","type_id":6,"subtype_id":10,"latitude":49.0452981,"longitude":27.7461697,"parent_id":1297,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2018-12-13T11:49:33.69624Z","location_data":[{"id":6,"value":"0520280613"}],"translations":[{"lang":"uk","name":"Міжлісся","country_name":"Україна","region_name":"Вінницька
+        обл. ,Барський р-н"},{"lang":"en","name":"Mizhlissya","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Barskyi ds."},{"lang":"ru","name":"Межлесье","country_name":"Украина","region_name":"Винницкая
+        обл. ,Барский р-н"},{"lang":"pl","name":"Mizhlissya","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Barski r-n"}]}],"dictionaries":{"ru":{"location_types":[{"id":6,"name":"населённый
+        пункт"}],"location_subtypes":[{"id":8,"name":"город","short_name":"г."},{"id":9,"name":"посёлок
+        городского типа","short_name":"пгт."},{"id":10,"name":"село","short_name":"с."},{"id":11,"name":"посёлок","short_name":"п."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"uk":{"location_types":[{"id":6,"name":"населений пункт"}],"location_subtypes":[{"id":8,"name":"місто","short_name":"м."},{"id":9,"name":"селище
+        міського типу","short_name":"смт."},{"id":10,"name":"село","short_name":"с."},{"id":11,"name":"селище","short_name":"сел."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"en":{"location_types":[{"id":6,"name":"settlement"}],"location_subtypes":[{"id":8,"name":"city","short_name":"c."},{"id":9,"name":"urban-type
+        settlement","short_name":"uts"},{"id":10,"name":"village","short_name":"v."},{"id":11,"name":"settlement","short_name":"s."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"pl":{"location_types":[],"location_subtypes":[{"id":8,"name":"miasto","short_name":"m."},{"id":9,"name":"urban-type
+        settlement","short_name":"uts"},{"id":10,"name":"village","short_name":"v."},{"id":11,"name":"settlement","short_name":"s."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]}}}'
+    http_version:
+  recorded_at: Thu, 28 Mar 2019 10:30:40 GMT
+recorded_with: VCR 2.9.3
