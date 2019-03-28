@@ -20,7 +20,63 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Authentication
+
+When the access-token is not existed you should use methods `authenticate` or `authenticate!`. Method `authenticate!` raises exception if authentication is failed.
+
+```ruby
+client = Gillbus::V2::Client.new(base_url: 'https://example.com')
+client.authenticate!(
+  username: 'test',
+  password: '12345',
+  lang: 'ru',
+  time_zone: 'Europe/Moscow',
+)
+```
+
+After `authenticate` you need to check the result with `authenticated?`.
+
+```ruby
+client.authenticate(
+  username: 'test',
+  password: '12345',
+  lang: 'ru',
+  time_zone: 'Europe/Moscow',
+)
+client.authenticated?
+# => true | false
+```
+
+After successfull authentication you need to save an access_token.
+
+```ruby
+# only token
+token_string = client.access_token.to_s
+
+# full token data (token type, expiration time)
+token_data = client.access_token.raw_data
+```
+
+When you have an access_token you should be able to pass it to the client.
+
+```ruby
+client = Gillbus::V2::Client.new(
+  base_url: 'https://example.com',
+  access_token: token_string, # or token_data
+)
+```
+
+You need to check the expiration time of the token. If the token becomes expired you should repeat the authentication process again.
+
+```ruby
+if client.access_token.expired?
+  client.authenticate!(...)
+  new_token = client.access_token.raw_data
+  # store new token
+end
+```
+
+The method `expired?` returns `false` when there is no info about the token’s expiration time.
 
 ## Development
 
