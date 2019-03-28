@@ -10,6 +10,13 @@ VCR.configure do |config|
   config.before_record do |item|
     item.response.body.force_encoding('UTF-8')
   end
+  # https://github.com/vcr/vcr/blob/master/features/request_matching/README.md
+  config.default_cassette_options[:match_requests_on] = [
+    :method,
+    :uri,
+    :headers,
+    :body,
+  ]
 end
 
 require "minitest/autorun"
