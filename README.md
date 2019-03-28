@@ -78,6 +78,78 @@ end
 
 The method `expired?` returns `false` when there is no info about the token’s expiration time.
 
+### Fetch locations
+
+For fetch the first page you should use method `get_locations`, other pages - `get_locations_page`. For example:
+
+```ruby
+response = client.get_locations(
+  langs: %w[en ru uk pl],
+  limit_for_page: 100,
+)
+# first 100 locations
+response.locations
+
+while response.pagination.next_page
+  response = client.get_locations_page(
+    pagination_uuid: response.pagination.uuid,
+    page_number: response.pagination.next_page,
+  )
+  # other locations by 100 records
+  response.locations
+end
+```
+
+Every response should contain the following data:
+
+```ruby
+# list of locations
+response.locations
+
+# dictionaries
+response.location_types
+response.location_sub_types
+response.location_additional_fields
+
+# usage of dictionaries
+location = response.locations.first
+location_type =
+  response.location_types.detect do |item|
+    item.id == location.type_id
+  end
+location_sub_type =
+  response.location_sub_types.detect do |item|
+    item.id == location.sub_type_id
+  end
+location.additional_fields.each do |field_id, field_value|
+  field =
+    response.location_additional_fields.detect do |item|
+      item.id == field_id
+    end
+  field_name = field.name
+end
+```
+
+Also you can load changes from a certain point of time instead of loading of the whole list. In order to do this you should pass param`from_datetime` to `get_locations`. Only the changed locations will be included in the response.
+
+```ruby
+# get changes for last hour
+response = client.get_locations(
+  langs: %w[en ru uk pl],
+  limit_for_page: 10,
+  from_datetime: DateTime.now - 3600,
+)
+
+while response.pagination.next_page
+  # ...
+end
+```
+
+Each location contains fields:
+
+- `date_modified` - last modification time
+- `deleted` - if true then location has been removed
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
