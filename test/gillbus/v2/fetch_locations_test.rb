@@ -112,12 +112,10 @@ describe "Fetch locations" do
     end
   end
 
-  describe "fetch changes from a certain point in time" do
+  describe "fetch changes from a certain point of time" do
     let(:date_time_now) { DateTime.parse("2019-03-28 13:45 +03") }
     let(:response) do
-      Timecop.freeze(date_time_now) do
-        get_locations(from_datetime: DateTime.now - 60)
-      end
+      get_locations(from_datetime: date_time_now - 60)
     end
 
     it "returns locations" do
