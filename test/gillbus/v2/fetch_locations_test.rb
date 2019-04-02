@@ -51,7 +51,7 @@ describe "Fetch locations" do
     it "returns dictionaries" do
       assert_equal true, response.success?
       assert_equal 1, response.location_types.size
-      assert_equal 1, response.location_types.size
+      assert_equal 2, response.location_sub_types.size
       assert_equal 5, response.location_additional_fields.size
     end
 
@@ -75,7 +75,7 @@ describe "Fetch locations" do
     it "returns dictionaries" do
       assert_equal true, response.success?
       assert_equal 1, response.location_types.size
-      assert_equal 1, response.location_types.size
+      assert_equal 4, response.location_sub_types.size
       assert_equal 5, response.location_additional_fields.size
     end
 
@@ -99,7 +99,7 @@ describe "Fetch locations" do
     it "returns dictionaries" do
       assert_equal true, response.success?
       assert_equal 1, response.location_types.size
-      assert_equal 1, response.location_types.size
+      assert_equal 1, response.location_sub_types.size
       assert_equal 5, response.location_additional_fields.size
     end
 
