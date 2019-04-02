@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://example.com/geo/v2/locations?lang_array=en&lang_array=ru&lang_array=uk&lang_array=pl&limit=100&timestamp=2019-01-27T13%3A45%3A00%2B03%3A00
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      accept:
+      - application/json
+      Authorization:
+      - Bearer 5EBE2294ECD0E0F08EAB7690D2A6EE69
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      server:
+      - nginx/1.15.9
+      date:
+      - Thu, 28 Mar 2019 10:44:40 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"pages_info":{"page_uuid":"bdffb7dc-39fc-40a5-929e-e96ea6d9a118","expires_in":3600,"page_number":1,"page_count":1},"locations":[{"id":1291,"default_name":"Vinnytsya
+        111111","type_id":6,"subtype_id":8,"latitude":49.233118,"longitude":28.468231,"parent_id":1266,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2019-03-13T10:15:46.436391Z","location_data":[{"id":6,"value":"0510100000"},{"id":16,"value":"93FF9E8F723C60C3E040A8C01E02198C"},{"id":16,"value":"F339118E2F9AA947E040B85960522C04"}],"translations":[{"lang":"uk","name":"Вінниця","country_name":"Україна","region_name":"Вінницька
+        обл."},{"lang":"en","name":"Vinnytsya 111111","country_name":"Ukraine","region_name":"Vinnytsia
+        obl."},{"lang":"ru","name":"Винница","country_name":"Украина","region_name":"Винницкая
+        обл."},{"lang":"pl","name":"Winnica","country_name":"Ukraina","region_name":"Winnicki
+        obw."}]},{"id":1292,"default_name":"Zhmerynka ","type_id":6,"subtype_id":8,"latitude":49.042485,"longitude":28.099266,"parent_id":1301,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2019-03-13T10:17:04.863095Z","location_data":[{"id":6,"value":"0510300000"},{"id":16,"value":"C9FBB8D261241C76E040B859C14366C7"}],"translations":[{"lang":"uk","name":"Жмеринка","country_name":"Україна","region_name":"Вінницька
+        обл. ,Жмеринський р-н"},{"lang":"ru","name":"Жмеринка","country_name":"Украина","region_name":"Винницкая
+        обл. ,Жмеринский р-н"},{"lang":"pl","name":"Żmerynka","country_name":"Ukraina","region_name":"Winnicki
+        obw. ,Zhmeryns''kyi r-n"},{"lang":"en","name":"Zhmerynka ","country_name":"Ukraine","region_name":"Vinnytsia
+        obl. ,Zhmerynskyi ds."}]},{"id":1295,"default_name":"Ladyzhyn","type_id":6,"subtype_id":8,"latitude":48.689781,"longitude":29.241573,"parent_id":1266,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2019-03-13T10:20:52.396888Z","location_data":[{"id":6,"value":"0510600000"},{"id":16,"value":"ACD21D9BC4F88757E040A8C063036DC2"}],"translations":[{"lang":"uk","name":"Ладижин","country_name":"Україна","region_name":"Вінницька
+        обл."},{"lang":"ru","name":"Ладыжин","country_name":"Украина","region_name":"Винницкая
+        обл."},{"lang":"pl","name":"Ładyżyn","country_name":"Ukraina","region_name":"Winnicki
+        obw."},{"lang":"en","name":"Ladyzhyn","country_name":"Ukraine","region_name":"Vinnytsia
+        obl."}]},{"id":11302,"default_name":"Baryshivka","type_id":6,"subtype_id":9,"latitude":50.35139,"longitude":31.31889,"parent_id":1529,"deleted":false,"country_id":184,"timezone":"Europe/Kiev","date_modified":"2019-02-05T13:46:32.637089Z","location_data":[{"id":6,"value":"3220255100"},{"id":16,"value":"C26C30D9EE2D1879E040B859C1437CBD"}],"translations":[{"lang":"uk","name":"Баришівка","country_name":"Україна","region_name":"Київська
+        обл. ,Баришівський р-н"},{"lang":"en","name":"Baryshivka","country_name":"Ukraine","region_name":"Kiev
+        obl. ,Baryshivskyi ds."},{"lang":"ru","name":"Барышевка","country_name":"Украина","region_name":"Киевская
+        обл. ,Барышевский р-н"},{"lang":"pl","name":"Baryszówka","country_name":"Ukraina","region_name":"Kijowski
+        obw. ,Baryshivs''kyi r-n"}]}],"dictionaries":{"ru":{"location_types":[{"id":6,"name":"населённый
+        пункт"}],"location_subtypes":[{"id":8,"name":"город","short_name":"г."},{"id":9,"name":"посёлок
+        городского типа","short_name":"пгт."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"uk":{"location_types":[{"id":6,"name":"населений пункт"}],"location_subtypes":[{"id":8,"name":"місто","short_name":"м."},{"id":9,"name":"селище
+        міського типу","short_name":"смт."}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"en":{"location_types":[{"id":6,"name":"settlement"}],"location_subtypes":[{"id":8,"name":"city","short_name":"c."},{"id":9,"name":"urban-type
+        settlement","short_name":"uts"}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]},"pl":{"location_types":[],"location_subtypes":[{"id":8,"name":"miasto","short_name":"m."},{"id":9,"name":"urban-type
+        settlement","short_name":"uts"}],"location_data_type":[{"id":16,"name":"gillbus_geography_guid"},{"id":19,"name":"avia_code"},{"id":6,"name":"KOATUU
+        (Ukraine)"},{"id":7,"name":"OKATO (active) (Russia)"},{"id":8,"name":"OKTMO
+        Internal (Russia)"}]}}}'
+    http_version:
+  recorded_at: Thu, 28 Mar 2019 10:45:00 GMT
+recorded_with: VCR 2.9.3

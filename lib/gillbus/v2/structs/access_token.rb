@@ -17,5 +17,9 @@ module Gillbus::V2
     def to_s
       access_token
     end
+
+    def auth_header
+      "#{token_type} #{access_token}"
+    end
   end
 end

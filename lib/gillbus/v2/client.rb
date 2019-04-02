@@ -41,6 +41,27 @@ module Gillbus::V2
       end
     end
 
+    def get_locations(langs: %w[en], limit_for_page: 50, from_datetime: nil)
+      params = {
+        lang_array: langs,
+        limit: limit_for_page,
+        timestamp: from_datetime&.rfc3339,
+      }
+      call_api(:get, "/geo/v2/locations", params,
+        response_class: Responses::Locations,
+      )
+    end
+
+    def get_locations_page(pagination_uuid:, page_number:)
+      params = {
+        page_uuid: pagination_uuid,
+        number_page: page_number,
+      }
+      call_api(:get, "/geo/v2/locations/page", params,
+        response_class: Responses::Locations,
+      )
+    end
+
     private
 
     def call_api(http_method, url, params, auth_required: true, response_class: Responses::Base)
@@ -56,6 +77,9 @@ module Gillbus::V2
               request.params[key.to_s] = value
             end
             request.headers['accept'] = 'application/json'
+            if auth_required
+              request.headers['Authorization'] = access_token.auth_header
+            end
           end
         rescue Faraday::Error => e
           raise e
@@ -68,6 +92,7 @@ module Gillbus::V2
       @connection ||= Faraday.new(url: base_url) do |faraday|
         faraday.request :url_encoded
         faraday.adapter Faraday.default_adapter
+        faraday.options[:params_encoder] = Faraday::FlatParamsEncoder
       end
     end
   end
