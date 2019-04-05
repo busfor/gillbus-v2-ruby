@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://example.com/search/v2/trips?date=2019-04-05&from_id=1290&limit=20&pass_count=1&search_mode=full&to_id=1611
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      accept:
+      - application/json
+      Authorization:
+      - Bearer 5EBE2294ECD0E0F08EAB7690D2A6EE69
+  response:
+    status:
+      code: 500
+      message:
+    headers:
+      server:
+      - nginx/1.15.9
+      date:
+      - Wed, 03 Apr 2019 11:30:45 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"timestamp":"2019-04-03T11:30:45.582+0000","status":500,"error":"Internal
+        Server Error","message":"No message available","path":"/search/v2/trips"}'
+    http_version:
+  recorded_at: Wed, 03 Apr 2019 11:00:00 GMT
+recorded_with: VCR 2.9.3

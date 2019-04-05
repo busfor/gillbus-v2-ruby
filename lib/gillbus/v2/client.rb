@@ -62,6 +62,34 @@ module Gillbus::V2
       )
     end
 
+    # search_mode:
+    # - full - искать все рейсы (по умолчанию)
+    # - direct - искать только прямые рейсы
+    def search_trips(from_id:, to_id:, date:, back_date: nil, passengers_count: 1, search_mode: "full", limit_for_page: 20)
+      params = {
+        from_id: from_id,
+        to_id: to_id,
+        date: date.iso8601,
+        back_date: back_date&.iso8601,
+        pass_count: passengers_count,
+        search_mode: search_mode,
+        limit: limit_for_page,
+      }
+      call_api(:get, "/search/v2/trips", params,
+        response_class: Responses::SearchTrips,
+      )
+    end
+
+    def search_trips_page(pagination_uuid:, page_number:)
+      params = {
+        page_uuid: pagination_uuid,
+        number_page: page_number,
+      }
+      call_api(:get, "/search/v2/trips/page", params,
+        response_class: Responses::SearchTrips,
+      )
+    end
+
     private
 
     def call_api(http_method, url, params, auth_required: true, response_class: Responses::Base)

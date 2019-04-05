@@ -3,7 +3,7 @@ module Gillbus::V2
     field :access_token, :string
     field :token_type, :string, default: "Bearer"
     field :expires_in, :integer
-    field :expires_on, :date_time_from_timestamp
+    field :expires_on, :date_time_timestamp
 
     def self.from_token_string(token)
       raw_data = { "access_token" => token }

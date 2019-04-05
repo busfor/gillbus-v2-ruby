@@ -6,9 +6,11 @@ module Gillbus::V2
       end
 
       def access_token
-        if json_body["access_token"]
-          Structs::AccessToken.from_raw_data(json_body)
-        end
+        return @access_token if defined?(@access_token)
+        @access_token =
+          if json_body["access_token"]
+            Structs::AccessToken.from_raw_data(json_body)
+          end
       end
     end
   end

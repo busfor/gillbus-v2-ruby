@@ -150,6 +150,44 @@ Each location contains fields:
 - `modified_at` - last modification time
 - `deleted` - if true then location has been removed
 
+### Search trips
+
+Search of trips works in the same way as `get_locations`:
+
+- `search_trips` for first page
+- `search_trips_page` for other
+
+```ruby
+response = client.search_trips(
+  from_id: 111,
+  to_id: 222,
+  date: Date.today + 1,
+  back_date: Date.today + 5,
+  passengers_count: 1,
+  limit_for_page: 20,
+)
+response.trips
+
+while response.pagination.next_page
+  response = client.search_trips_page(
+    pagination_uuid: response.pagination.uuid,
+    page_number: response.pagination.next_page,
+  )
+  response.trips
+end
+```
+
+Every response contains trips and dictionaries for them:
+
+```ruby
+response.trips
+
+# dictionaries
+response.carriers
+response.vehicles
+response.points
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
