@@ -90,6 +90,17 @@ module Gillbus::V2
       )
     end
 
+    def get_trip_seats(trip_id:, date:, back_date: nil, passengers_count: 1)
+      params = {
+        date: date,
+        back_date: back_date,
+        pass_count: passengers_count,
+      }
+      call_api(:get, "/search/v2/trips/#{trip_id}/seats", params,
+        response_class: Responses::TripSeats,
+      )
+    end
+
     private
 
     def call_api(http_method, url, params, auth_required: true, response_class: Responses::Base)

@@ -188,6 +188,36 @@ response.vehicles
 response.points
 ```
 
+### Get trip seats
+
+Example of usage:
+
+```ruby
+response = client.get_trip_seats(
+  trip_id: "123",
+  date: Date.today + 1,
+  back_date: Date.today + 5,
+  passengers_count: 1,
+)
+
+response.seat_maps.each do |seat_map|
+  # Array of all seats
+  seat_map.seats
+
+  # Seats by floor
+  seat_map.floors.each do |floor|
+    # Array of floor seats
+    seat_map.floor_seats(floor)
+    # Array of arrays of seats
+    seat_map.floor_seat_map(floor)
+    # Print the same result
+    puts seat_map.format_seats(floor: floor)
+  end
+end
+```
+
+See `Structs::SegmentSeatMap` for details.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

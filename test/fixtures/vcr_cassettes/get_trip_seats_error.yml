@@ -1,0 +1,37 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://example.com/search/v2/trips/invalid/seats?date=2019-04-10&pass_count=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      accept:
+      - application/json
+      Authorization:
+      - Bearer 5EBE2294ECD0E0F08EAB7690D2A6EE69
+  response:
+    status:
+      code: 400
+      message:
+    headers:
+      server:
+      - nginx/1.15.9
+      date:
+      - Mon, 08 Apr 2019 11:40:58 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"timestamp":"2019-04-08T11:40:58.020+0000","status":400,"error":"Bad
+        Request","message":"Invalid trip ID","path":"/search/v2/trips/invalid/seats"}'
+    http_version:
+  recorded_at: Mon, 08 Apr 2019 11:40:58 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,459 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://example.com/search/v2/trips?date=2019-04-10&from_id=1611&limit=20&pass_count=1&search_mode=full&to_id=235900
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      accept:
+      - application/json
+      Authorization:
+      - Bearer 5EBE2294ECD0E0F08EAB7690D2A6EE69
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      server:
+      - nginx/1.15.9
+      date:
+      - Mon, 08 Apr 2019 11:23:53 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"pages_info":{"page_uuid":"4621ACC54D920A35C93E11AA37415AB9","expires_in":"2019-04-08T11:53:53.518Z","page_number":1,"page_count":1},"points":[{"id":"102481","name":"Железнодорожный
+        вокзал \"Центральный\"","address":"Дворцовая площадь; дом 1 ","parent_id":null},{"id":"1401661","name":"Остановка
+        \"КПП\"","address":"Краковец","parent_id":null},{"id":"1401662","name":"Остановка
+        \"КПП\"","address":"Ужгород","parent_id":null},{"id":"1401663","name":"Остановка
+        \"КПП\"","address":"Рава-Русская","parent_id":null},{"id":"1170618","name":"Автовокзал
+        \"Флоренц\"","address":"улица Кризикова; дом 6","parent_id":null},{"id":"1167290","name":"Автовокзал
+        Градец Краловое","address":"улица Поуховска; дом 153/52","parent_id":null},{"id":"1170615","name":"Остановка
+        Градец Кралове","address":"Терминал HD","parent_id":null},{"id":"1170616","name":"Автовокзал
+        Братислава","address":"улица Ботова; дом 31","parent_id":null},{"id":"1168344","name":"Автовокзал
+        \"Вроцлав\"","address":"улица Суха; дом 1","parent_id":null},{"id":"1172689","name":"Остановка
+        \"Торговый центр \"Галерия Жешув\"","address":"аллея Юзефа Пилсудского; дом
+        44","parent_id":null},{"id":"1147568","name":"Автовокзал \"Жешув\"","address":"улица
+        Артура Гроттгера; дом 1","parent_id":null},{"id":"1139211","name":"Автовокзал
+        \"Флоренц\"","address":"улица Под Вытопной; дом 13/10","parent_id":null},{"id":"1401664","name":"Остановка
+        \"КПП\"","address":"Корчова","parent_id":null},{"id":"1402599","name":"Автостанция
+        Оломоуц (вход s)","address":"улица Товарни","parent_id":null},{"id":"925808","name":"Автовокзал
+        Катовице ","address":"улица Петра Скарги; дом 1","parent_id":null},{"id":"1172046","name":"Автовокзал
+        Фридек-Мистек","address":"улица На Поржичи 3530","parent_id":null},{"id":"1401666","name":"Остановка
+        \"КПП\"","address":"Медыка","parent_id":null},{"id":"1172684","name":"Автовокзал
+        Нижние Ворота","address":"удица Народная; дом 9","parent_id":null},{"id":"1173096","name":"Остановка
+        \"АЗС \"TESCO\"","address":"улица Товарова; дом 2","parent_id":null},{"id":"1172283","name":"Автовокзал
+        Зволен","address":"улица Балкан; дом 53","parent_id":null},{"id":"925866","name":"Автовокзал
+        Ныса","address":"улица Рацлавицка; дом 1","parent_id":null},{"id":"1136755","name":"Остановка
+        Свалява","address":"улица Киевская; дом 12","parent_id":null},{"id":"1161613","name":"Автостанция
+        №8","address":"Дворцовая площадь; дом 1","parent_id":null},{"id":"919625","name":"Автовокзал
+        Острава","address":"улица Витковицка 3083","parent_id":null},{"id":"1139188","name":"Автовокзал
+        Кошице","address":"площадь Станичная; дом 9","parent_id":null},{"id":"1139189","name":"Автовокзал
+        Краков","address":"улица Босацка; дом 18","parent_id":null},{"id":"1168359","name":"Остановка
+        Градец Кралове","address":"улица Надражни; дом 75/7","parent_id":null},{"id":"81243","name":"Остановка
+        \"Магазин \"Теско\"","address":"улица Львовская; дом 36","parent_id":null},{"id":"1401675","name":"Остановка
+        \"КПП\"","address":"Горжички","parent_id":null},{"id":"1172253","name":"Автовокзал
+        Нитра","address":"улица Станична","parent_id":null},{"id":"1173022","name":"Автовокзал
+        Оломоуц","address":"улица Сладковского; дом 142/37","parent_id":null},{"id":"1401676","name":"Остановка
+        \"КПП\"","address":"Новый Богумин","parent_id":null},{"id":"1172252","name":"Железнодорожный
+        вокзал Михаловце","address":"улица Станична","parent_id":null},{"id":"919598","name":"Остановка
+        \"Метро Розтылы\"","address":"улица Томичкова","parent_id":null},{"id":"1136805","name":"Остановка
+        \"ТЦ \"Суперсам\"","address":"улица Петра Скарги; дом 6","parent_id":null},{"id":"1147942","name":"Автовокзал
+        \"Бельско-Бяла\"","address":"улица Варшавская; дом 7","parent_id":null},{"id":"1147989","name":"Автостанция
+        Стрый","address":"улица Вокзальная; дом 7Б","parent_id":null},{"id":"1173599","name":"Остановка
+        Брно","address":"улица Опустена; дом 227/4","parent_id":null},{"id":"1171531","name":"Остановка
+        \"КПП\"","address":"улица Гранична","parent_id":null},{"id":"1173594","name":"Автовокзал
+        \"Звонарка\"","address":"улица Звонарка 411","parent_id":null},{"id":"1401687","name":"Остановка
+        \"КПП\"","address":"Кудова-Здруй","parent_id":null},{"id":"1403702","name":"Остановка
+        \"Супермаркет Silverland\"","address":"улица Лавковская; дом 1Е","parent_id":null},{"id":"1403701","name":"Остановка
+        \"Торговый центр Барва\" (парковка)","address":"улица Гагарина; дом 38А","parent_id":null},{"id":"1136894","name":"Автовокзал
+        \"Центральный\"","address":"улица Стрыйская; дом 109","parent_id":null},{"id":"1147572","name":"Железнодорожний
+        вокзал \"Вагабунда\"","address":"площадь Дворцова; дом 3","parent_id":null},{"id":"1139208","name":"Автовокзал
+        \"Ополе\"","address":"улицам 1 мая; дом 4","parent_id":null},{"id":"1168333","name":"Аэропорт
+        им. Иоанна Павла II","address":"улица Капитана Мечислава Медвецкого; дом 1","parent_id":null},{"id":"1171667","name":"Остановка
+        Катовице","address":"улица Пиотра Скарги; дом 8","parent_id":null},{"id":"1168655","name":"Железнодорожный
+        вокзал \"Центральный\" (возле багажного отделения)","address":"Дворцовая площадь;
+        дом 1","parent_id":null},{"id":"1173600","name":"Автовокзал \"Острава-Свинов\"","address":"улица
+        Петеркова; дом 79/5","parent_id":null},{"id":"1136893","name":"Автовокзал
+        \"Северный\"","address":"улица Богдана Хмельницкого; дом 225","parent_id":null},{"id":"1401616","name":"Автовокзал
+        Шегини","address":"улица Дружбы","parent_id":null}],"locations":[{"id":"","name":"Львов","timezone":"Europe/Kiev","parent_id":null},{"id":"1611","name":"Львов","timezone":"Europe/Kiev","parent_id":null},{"id":"235900","name":"Прага","timezone":"Europe/Prague","parent_id":null}],"carriers":[{"id":"6F38C198099238A7E0530300F00A6122","name":"\"-ВАСИЛЬКОВТРАНСАВТО-\"
+        ЧП","trade_mark":"\"-ВАСИЛЬКОВТРАНСАВТО-\"","logo":null},{"id":"1207E6468F510E2CE0508E5B3557332B","name":"“Nikolo”/\"Nikolo\"
+        s.r.o.","trade_mark":"“Nikolo”","logo":null},{"id":"62CBB898A029236FE0530300F00A9177","name":"Lux-reisen/КАССА
+        \"ЛЮКС-РЕЙЗЕН\" ООО","trade_mark":"Lux-reisen","logo":null},{"id":"490B969CD06F5F89E0530300F00A4654","name":"\"Мусіл
+        Тур спол. с.р.о.\"Представництво","trade_mark":"\"Мусіл Тур спол. с.р.о.\"Представництво","logo":null},{"id":"F7D9B1F85F8EE258E040B85960520C78","name":"\"Прикарпатский
+        Экспресс\" ЧП","trade_mark":"\"Прикарпатский Экспресс\" ЧП","logo":null},{"id":"5019DB3C1166782AE0530300F00A6CDA","name":"\"Rozmar
+        s.r.o\"","trade_mark":"\"Rozmar s.r.o\"","logo":null},{"id":"3C4BA793AABB2016E0530300F00AF0B6","name":"Яців
+        В.В./\"Яцив В.В.\" ФЛП","trade_mark":"Яців В.В.","logo":null},{"id":"32F6C28844A2256DE0530300F00A8AF5","name":"\"Остапчук
+        В.В.\" ФОП/\"Остапчук В.В.\" ФЛП","trade_mark":"\"Остапчук В.В.\" ФОП","logo":null},{"id":"2B42B0EA73046A3FE0530300F00A8DDC","name":"\"НИКОЛО-Украина\"
+        ЧП","trade_mark":"\"НИКОЛО-Украина\" ЧП","logo":null}],"vehicles":[{"id":"TmVvcGxhbg==","type":null,"model":"Neoplan","class":"","capacity":49,"number":null,"picture_url":null,"tumbnail_url":null},{"id":"Vk9MVk8gQjEyLTYwMCAoRnJlZSk=","type":null,"model":"VOLVO
+        B12-600 (Free)","class":"","capacity":48,"number":null,"picture_url":null,"tumbnail_url":null},{"id":"TWVyY2VkZXMtMDM1MA==","type":null,"model":"Mercedes-0350","class":"","capacity":49,"number":null,"picture_url":null,"tumbnail_url":null},{"id":"TmVvcGxhbiA3MQ==","type":null,"model":"Neoplan
+        71","class":"S7","capacity":71,"number":null,"picture_url":null,"tumbnail_url":null},{"id":"TmVvcGxhbihGcmVlKQ==","type":null,"model":"Neoplan(Free)","class":"","capacity":49,"number":null,"picture_url":null,"tumbnail_url":null},{"id":"VmFuIEhvb2wgRU9TIGNvYWNoIDIzMy1a","type":null,"model":"Van
+        Hool EOS coach 233-Z","class":"","capacity":57,"number":null,"picture_url":null,"tumbnail_url":null},{"id":"TUFOKFZJUCk=","type":null,"model":"MAN(VIP)","class":"","capacity":59,"number":null,"picture_url":null,"tumbnail_url":null}],"vehicle_options":null,"segments":[{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41OTI2NjU5NDQ2ODkwRTFCREE5QTVEODZFN0QzRDI5Nw","resource_id":"0","number":"MD_TEST
+        - KLR027 Косов, Ивано-Франковская, Косовский - Пльзень","name":null,"platform":"","departureDateTime":"2019-04-10
+        20:25","arrivalDateTime":"2019-04-11 11:30","departure_point_id":"1136894","arrival_point_id":"1139211","travel_time":"16:05","carrier_id":"62CBB898A029236FE0530300F00A9177","has_hub":false,"vehicle_id":"TmVvcGxhbihGcmVlKQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":false,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        20:15","departureDateTime":"2019-04-10 20:25","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1161613","arrivalDateTime":"2019-04-10
+        20:45","departureDateTime":"2019-04-10 21:00","is_hub":false,"distance":8,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401666","arrivalDateTime":"2019-04-10
+        22:15","departureDateTime":"2019-04-10 22:55","is_hub":false,"distance":80,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1147568","arrivalDateTime":"2019-04-11
+        00:35","departureDateTime":"2019-04-11 00:45","is_hub":false,"distance":178,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-11
+        03:15","departureDateTime":"2019-04-11 03:25","is_hub":false,"distance":348,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-11
+        04:30","departureDateTime":"2019-04-11 04:35","is_hub":false,"distance":429,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401676","arrivalDateTime":"2019-04-11
+        05:50","departureDateTime":"2019-04-11 05:55","is_hub":false,"distance":501,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1173022","arrivalDateTime":"2019-04-11
+        07:40","departureDateTime":"2019-04-11 07:45","is_hub":false,"distance":611,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        08:45","departureDateTime":"2019-04-11 08:55","is_hub":false,"distance":688,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139211","arrivalDateTime":"2019-04-11
+        11:30","departureDateTime":"2019-04-11 11:40","is_hub":false,"distance":898,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2490.09,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2490.09,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":null,"end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 240 ч., до отправления рейса Удерживается при возврате: 20% тарифа.
+        Ориентировочная сумма возврата 1450.54","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 120 ч.,  менее чем за 240 ч., до отправления рейса Удерживается при
+        возврате: 50% тарифа. Ориентировочная сумма возврата 725.27","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 48 ч.,  менее чем за 120 ч., до отправления рейса Удерживается при
+        возврате: 80% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 48 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса, при непредоставлении места. Возвращается 100% стоимости
+        билета. Ориентировочная сумма возврата 2490.09","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH43QUFCOTcyMjU0ODVDNjU3QjUzQjYxMUIyQjc0NTZCMw","resource_id":"0","number":"MD_TEST
+        - KLR025 Херсон, Херсонская - Пльзень","name":null,"platform":"","departureDateTime":"2019-04-10
+        23:10","arrivalDateTime":"2019-04-11 18:45","departure_point_id":"1161613","arrival_point_id":"1139211","travel_time":"20:35","carrier_id":"62CBB898A029236FE0530300F00A9177","has_hub":false,"vehicle_id":"Vk9MVk8gQjEyLTYwMCAoRnJlZSk=","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":false,"route":[{"point_id":"1161613","arrivalDateTime":"2019-04-10
+        23:00","departureDateTime":"2019-04-10 23:10","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401616","arrivalDateTime":"2019-04-11
+        01:00","departureDateTime":"2019-04-11 01:30","is_hub":false,"distance":1,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"81243","arrivalDateTime":"2019-04-11
+        02:00","departureDateTime":"2019-04-11 02:10","is_hub":false,"distance":2,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-11
+        08:10","departureDateTime":"2019-04-11 08:40","is_hub":false,"distance":4,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-11
+        09:30","departureDateTime":"2019-04-11 09:40","is_hub":false,"distance":5,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173096","arrivalDateTime":"2019-04-11
+        10:20","departureDateTime":"2019-04-11 10:25","is_hub":false,"distance":6,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1147942","arrivalDateTime":"2019-04-11
+        11:10","departureDateTime":"2019-04-11 11:15","is_hub":false,"distance":7,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1171531","arrivalDateTime":"2019-04-11
+        11:30","departureDateTime":"2019-04-11 11:55","is_hub":false,"distance":8,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1173600","arrivalDateTime":"2019-04-11
+        12:35","departureDateTime":"2019-04-11 12:40","is_hub":false,"distance":9,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173022","arrivalDateTime":"2019-04-11
+        14:10","departureDateTime":"2019-04-11 14:15","is_hub":false,"distance":10,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        15:30","departureDateTime":"2019-04-11 15:35","is_hub":false,"distance":11,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139211","arrivalDateTime":"2019-04-11
+        18:45","departureDateTime":"2019-04-11 18:50","is_hub":false,"distance":12,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2490.09,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2490.09,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":null,"end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 240 ч., до отправления рейса Удерживается при возврате: 20% тарифа.
+        Ориентировочная сумма возврата 1692.29","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 120 ч.,  менее чем за 240 ч., до отправления рейса Удерживается при
+        возврате: 50% тарифа. Ориентировочная сумма возврата 967.02","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 48 ч.,  менее чем за 120 ч., до отправления рейса Удерживается при
+        возврате: 80% тарифа. Ориентировочная сумма возврата 241.75","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 48 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса, при непредоставлении места. Возвращается 100% стоимости
+        билета. Ориентировочная сумма возврата 2490.09","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41RjIzMjA2ODE3OTk0MUU3MzA2NkY2Nzg4RUI5MTNDRA","resource_id":"0","number":"MD_TEST
+        - PRE001 Черновцы - Пльзень","name":null,"platform":"","departureDateTime":"2019-04-10
+        21:40","arrivalDateTime":"2019-04-11 14:30","departure_point_id":"1136894","arrival_point_id":"1139211","travel_time":"17:50","carrier_id":"F7D9B1F85F8EE258E040B85960520C78","has_hub":false,"vehicle_id":"TmVvcGxhbihGcmVlKQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        21:30","departureDateTime":"2019-04-10 21:40","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401661","arrivalDateTime":"2019-04-10
+        23:20","departureDateTime":"2019-04-10 23:59","is_hub":false,"distance":74,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1147568","arrivalDateTime":"2019-04-11
+        01:10","departureDateTime":"2019-04-11 01:20","is_hub":false,"distance":160,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-11
+        04:10","departureDateTime":"2019-04-11 04:20","is_hub":false,"distance":323,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1171667","arrivalDateTime":"2019-04-11
+        05:15","departureDateTime":"2019-04-11 05:20","is_hub":false,"distance":374,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1171531","arrivalDateTime":"2019-04-11
+        ","departureDateTime":"2019-04-11 06:30","is_hub":false,"distance":476,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1173022","arrivalDateTime":"2019-04-11
+        08:50","departureDateTime":"2019-04-11 09:00","is_hub":false,"distance":592,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1167290","arrivalDateTime":"2019-04-11
+        12:30","departureDateTime":"2019-04-11 12:40","is_hub":false,"distance":732,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139211","arrivalDateTime":"2019-04-11
+        14:30","departureDateTime":"2019-04-11 14:40","is_hub":false,"distance":849,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2352.94,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2352.94,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":"2014-04-24","end_date":null,"note":"","refund_conditions":[{"condition_description":"Объективные
+        причины (болезнь, несчастный случай) при наличии подтверждающего документа,
+        не более чем через 72 часа после отправления рейса\n Возвращается 100% стоимости
+        тарифа. Ориентировочная сумма возврата 2023.53","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,
+        не менее чем за 48 часов до отправления рейса Возвращается 100% стоимости
+        тарифа. Ориентировочная сумма возврата 2023.53","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,
+        не менее чем за 24 часа до отправления рейса Удерживается при возврате: 30%
+        тарифа. Ориентировочная сумма возврата 1317.65","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,
+        менее чем за 24 часа до отправления рейса Удерживается при возврате: 70% тарифа.
+        Ориентировочная сумма возврата 376.47","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        отмена рейса Возвращается 100% стоимости билета. Ориентировочная сумма возврата
+        2352.94","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5GN0UwRThBOTJFMzkxMTdBNzIxNTE4RkVBMDYwMzJCQg","resource_id":"0","number":"MD_TEST
+        - SYM001 Трускавец, Львовская - Пльзень","name":null,"platform":"","departureDateTime":"2019-04-10
+        12:30","arrivalDateTime":"2019-04-11 05:10","departure_point_id":"1168655","arrival_point_id":"919598","travel_time":"17:40","carrier_id":"5019DB3C1166782AE0530300F00A6CDA","has_hub":false,"vehicle_id":"TmVvcGxhbihGcmVlKQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1168655","arrivalDateTime":"2019-04-10
+        12:25","departureDateTime":"2019-04-10 12:30","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401661","arrivalDateTime":"2019-04-10
+        13:20","departureDateTime":"2019-04-10 14:20","is_hub":false,"distance":1,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-10
+        19:10","departureDateTime":"2019-04-10 19:20","is_hub":false,"distance":2,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-10
+        21:00","departureDateTime":"2019-04-10 21:10","is_hub":false,"distance":3,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1171531","arrivalDateTime":"2019-04-10
+        22:10","departureDateTime":"2019-04-10 22:20","is_hub":false,"distance":4,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1173600","arrivalDateTime":"2019-04-10
+        22:40","departureDateTime":"2019-04-10 22:50","is_hub":false,"distance":5,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173022","arrivalDateTime":"2019-04-11
+        00:20","departureDateTime":"2019-04-11 00:30","is_hub":false,"distance":6,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        01:30","departureDateTime":"2019-04-11 01:40","is_hub":false,"distance":7,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"919598","arrivalDateTime":"2019-04-11
+        05:10","departureDateTime":"2019-04-11 05:30","is_hub":false,"distance":8,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2417.56,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2417.56,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n1 місце багажу загальною вагою до 30кг
+        60х60х40.\nРучна покладка до 10кг. За кожен додатковий кг ваги = 2 злотих","start_date":"2017-06-01","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 72 ч., до отправления рейса Удерживается при возврате: 20% тарифа.
+        Ориентировочная сумма возврата 1450.54","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается при возврате:
+        50% тарифа. Ориентировочная сумма возврата 725.27","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 4 ч.,  менее чем за 24 ч., до отправления рейса Удерживается при возврате:
+        75% тарифа. Ориентировочная сумма возврата 120.88","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 4 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса, при непредоставлении места. Возвращается 100% стоимости
+        билета. Ориентировочная сумма возврата 2417.56","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH42MTQ2MzFDRTgwQzcyMTQ0NDk2MjJBNEJCNUQzMDI3Nw","resource_id":"0","number":"MD_TEST
+        - NUA001 Коломыя, Ивано-Франковская - Пльзень","name":null,"platform":"","departureDateTime":"2019-04-10
+        17:00","arrivalDateTime":"2019-04-11 08:20","departure_point_id":"1136893","arrival_point_id":"919598","travel_time":"16:20","carrier_id":"2B42B0EA73046A3FE0530300F00A8DDC","has_hub":false,"vehicle_id":"TWVyY2VkZXMtMDM1MA==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1136893","arrivalDateTime":"2019-04-10
+        16:55","departureDateTime":"2019-04-10 17:00","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401663","arrivalDateTime":"2019-04-10
+        18:40","departureDateTime":"2019-04-10 19:20","is_hub":false,"distance":1,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1168333","arrivalDateTime":"2019-04-10
+        22:50","departureDateTime":"2019-04-10 23:00","is_hub":false,"distance":2,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139208","arrivalDateTime":"2019-04-11
+        02:05","departureDateTime":"2019-04-11 02:10","is_hub":false,"distance":3,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925866","arrivalDateTime":"2019-04-11
+        03:05","departureDateTime":"2019-04-11 03:15","is_hub":false,"distance":4,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401687","arrivalDateTime":"2019-04-11
+        04:45","departureDateTime":"2019-04-11 05:15","is_hub":false,"distance":5,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1170615","arrivalDateTime":"2019-04-11
+        06:00","departureDateTime":"2019-04-11 06:20","is_hub":false,"distance":6,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"919598","arrivalDateTime":"2019-04-11
+        08:20","departureDateTime":"2019-04-11 08:50","is_hub":false,"distance":7,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2417.56,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2417.56,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":"2016-02-08","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 24 ч., до отправления рейса Возвращается 100% стоимости тарифа. Ориентировочная
+        сумма возврата 2054.92","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 2 ч.,  менее чем за 24 ч., до отправления рейса Удерживается при возврате:
+        10% тарифа. Ориентировочная сумма возврата 1813.16","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 10 мин.,  менее чем за 2 ч., до отправления рейса Удерживается при
+        возврате: 20% тарифа. Ориентировочная сумма возврата 1571.41","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса, при непредоставлении места. Возвращается 100% стоимости
+        билета. Ориентировочная сумма возврата 2417.56","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH4yRTQ0QTdBOEVFQjUzRjM3MjkzQTFEMjJGQzkzN0RCMg","resource_id":"0","number":"MD_TEST
+        - MSR363/2  Запорожье, Запорожская - Прага","name":null,"platform":"","departureDateTime":"2019-04-10
+        01:10","arrivalDateTime":"2019-04-10 17:30","departure_point_id":"1136894","arrival_point_id":"1170618","travel_time":"17:20","carrier_id":"490B969CD06F5F89E0530300F00A4654","has_hub":false,"vehicle_id":"TUFOKFZJUCk=","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        01:00","departureDateTime":"2019-04-10 01:10","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401661","arrivalDateTime":"2019-04-10
+        03:00","departureDateTime":"2019-04-10 04:30","is_hub":false,"distance":78,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1401664","arrivalDateTime":"2019-04-10
+        03:30","departureDateTime":"2019-04-10 05:00","is_hub":false,"distance":79,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1147568","arrivalDateTime":"2019-04-10
+        06:20","departureDateTime":"2019-04-10 06:30","is_hub":false,"distance":176,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-10
+        08:50","departureDateTime":"2019-04-10 09:00","is_hub":false,"distance":343,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1136805","arrivalDateTime":"2019-04-10
+        10:10","departureDateTime":"2019-04-10 10:30","is_hub":false,"distance":423,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401675","arrivalDateTime":"2019-04-10
+        11:30","departureDateTime":"2019-04-10 11:30","is_hub":false,"distance":488,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1173599","arrivalDateTime":"2019-04-10
+        14:20","departureDateTime":"2019-04-10 14:30","is_hub":false,"distance":676,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1170618","arrivalDateTime":"2019-04-10
+        17:30","departureDateTime":"2019-04-10 ","is_hub":false,"distance":884,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2151.63,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2151.63,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\nОдно место ручной клади до 5кг бесплатно.
+        Одно место багажа до 25кг размером 30х60х80см бесплатно. За каждое последующее
+        место багажа (2 максимально) оплата в размере 150грн или 10usd. При наличии
+        свободного места в багажном отделении и с согласия перевозчика пассажир за
+        дополнительную плату может перевозить дополнительный или крупногабаритный
+        багаж.","start_date":"2017-03-01","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 48 ч., до отправления рейса Удерживается при возврате: 15% тарифа.
+        Ориентировочная сумма возврата 1441.6","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 24 ч.,  менее чем за 48 ч., до отправления рейса Удерживается при возврате:
+        50% тарифа. Ориентировочная сумма возврата 688.53","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса, при непредоставлении места. Возвращается 100% стоимости
+        билета. Ориентировочная сумма возврата 2151.63","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5GODk2MjkxRDE5OUVFNEFDQzREQjVEMjZGN0NDREU0Ng","resource_id":"0","number":"MD_TEST
+        - YVV003 Калуш, Ивано-Франковская, Калушский - Прага","name":null,"platform":"","departureDateTime":"2019-04-10
+        15:50","arrivalDateTime":"2019-04-11 12:20","departure_point_id":"1136894","arrival_point_id":"1170618","travel_time":"21:30","carrier_id":"3C4BA793AABB2016E0530300F00AF0B6","has_hub":false,"vehicle_id":"TmVvcGxhbihGcmVlKQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        15:40","departureDateTime":"2019-04-10 15:50","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1147989","arrivalDateTime":"2019-04-10
+        16:55","departureDateTime":"2019-04-10 17:00","is_hub":false,"distance":65,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1172684","arrivalDateTime":"2019-04-10
+        18:45","departureDateTime":"2019-04-10 18:55","is_hub":false,"distance":169,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1136755","arrivalDateTime":"2019-04-10
+        19:35","departureDateTime":"2019-04-10 19:45","is_hub":false,"distance":206,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1403702","arrivalDateTime":"2019-04-10
+        20:15","departureDateTime":"2019-04-10 20:25","is_hub":false,"distance":234,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1403701","arrivalDateTime":"2019-04-10
+        21:15","departureDateTime":"2019-04-10 21:25","is_hub":false,"distance":278,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401662","arrivalDateTime":"2019-04-10
+        21:30","departureDateTime":"2019-04-10 22:15","is_hub":false,"distance":281,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1172252","arrivalDateTime":"2019-04-10
+        22:40","departureDateTime":"2019-04-10 22:45","is_hub":false,"distance":325,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139188","arrivalDateTime":"2019-04-10
+        23:35","departureDateTime":"2019-04-10 23:40","is_hub":false,"distance":375,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1172283","arrivalDateTime":"2019-04-11
+        03:10","departureDateTime":"2019-04-11 03:15","is_hub":false,"distance":588,"platform":"6","check_point":false,"vehicle_id":null},{"point_id":"1172253","arrivalDateTime":"2019-04-11
+        05:15","departureDateTime":"2019-04-11 05:20","is_hub":false,"distance":706,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1170616","arrivalDateTime":"2019-04-11
+        06:45","departureDateTime":"2019-04-11 06:55","is_hub":false,"distance":792,"platform":"9","check_point":false,"vehicle_id":null},{"point_id":"1173599","arrivalDateTime":"2019-04-11
+        09:00","departureDateTime":"2019-04-11 09:05","is_hub":false,"distance":920,"platform":"17","check_point":false,"vehicle_id":null},{"point_id":"1170618","arrivalDateTime":"2019-04-11
+        12:20","departureDateTime":"2019-04-11 ","is_hub":false,"distance":1123,"platform":"21","check_point":false,"vehicle_id":null}],"price":{"total":2175.8,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2175.8,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":"2016-09-12","end_date":"2019-12-31","note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 24 ч., до отправления рейса Возвращается 100% стоимости тарифа. Ориентировочная
+        сумма возврата 1849.43","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса Возвращается 100% стоимости билета. Ориентировочная сумма
+        возврата 2175.8","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH42QTQ3RTVDRDdDMDM5MTVEOTI5NDQyQjRFRDkzQTg1NQ","resource_id":"0","number":"MD_TEST
+        - NIK343 Ивано-Франковск - Прага","name":null,"platform":"","departureDateTime":"2019-04-10
+        14:30","arrivalDateTime":"2019-04-11 04:15","departure_point_id":"102481","arrival_point_id":"1170618","travel_time":"14:45","carrier_id":"1207E6468F510E2CE0508E5B3557332B","has_hub":false,"vehicle_id":"TmVvcGxhbiA3MQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"102481","arrivalDateTime":"2019-04-10
+        14:25","departureDateTime":"2019-04-10 14:30","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401661","arrivalDateTime":"2019-04-10
+        15:20","departureDateTime":"2019-04-10 16:00","is_hub":false,"distance":0,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1172689","arrivalDateTime":"2019-04-10
+        19:00","departureDateTime":"2019-04-10 19:05","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-10
+        21:30","departureDateTime":"2019-04-10 21:35","is_hub":false,"distance":2,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173600","arrivalDateTime":"2019-04-11
+        00:30","departureDateTime":"2019-04-11 00:35","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1172046","arrivalDateTime":"2019-04-11
+        01:00","departureDateTime":"2019-04-11 01:05","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1402599","arrivalDateTime":"2019-04-11
+        02:00","departureDateTime":"2019-04-11 02:05","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        02:30","departureDateTime":"2019-04-11 02:35","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1170618","arrivalDateTime":"2019-04-11
+        04:15","departureDateTime":"2019-04-11 04:20","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2081.52,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2081.52,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":"2015-03-23","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа.
+        Ориентировочная сумма возврата 1486.8","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,
+        более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается
+        при возврате: 50% тарифа. Ориентировочная сумма возврата 693.84","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса. Возвращается 100% стоимости билета. Ориентировочная сумма
+        возврата 2081.52","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH44OTIyMEQ2NjVFN0VENzdFMDAyQTQyRDM1NjYxODYzNw","resource_id":"0","number":"MD_TEST
+        - OVV003 Кривой Рог, Днепропетровская - Прага","name":null,"platform":"","departureDateTime":"2019-04-10
+        23:50","arrivalDateTime":"2019-04-11 15:10","departure_point_id":"1136894","arrival_point_id":"1170618","travel_time":"16:20","carrier_id":"32F6C28844A2256DE0530300F00A8AF5","has_hub":false,"vehicle_id":"TmVvcGxhbg==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        23:40","departureDateTime":"2019-04-10 23:50","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401661","arrivalDateTime":"2019-04-11
+        01:00","departureDateTime":"2019-04-11 02:00","is_hub":false,"distance":75,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1401664","arrivalDateTime":"2019-04-11
+        01:00","departureDateTime":"2019-04-11 02:00","is_hub":false,"distance":76,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1147568","arrivalDateTime":"2019-04-11
+        03:20","departureDateTime":"2019-04-11 03:30","is_hub":false,"distance":161,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-11
+        06:20","departureDateTime":"2019-04-11 06:30","is_hub":false,"distance":352,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-10
+        07:40","departureDateTime":"2019-04-10 07:50","is_hub":false,"distance":430,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401675","arrivalDateTime":"2019-04-11
+        09:00","departureDateTime":"2019-04-11 09:00","is_hub":false,"distance":516,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"919625","arrivalDateTime":"2019-04-11
+        09:20","departureDateTime":"2019-04-11 09:30","is_hub":false,"distance":532,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173599","arrivalDateTime":"2019-04-11
+        12:00","departureDateTime":"2019-04-11 12:10","is_hub":false,"distance":702,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1170618","arrivalDateTime":"2019-04-11
+        15:10","departureDateTime":"2019-04-11 ","is_hub":false,"distance":910,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":3046.12,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":3046.12,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\nВ стоимость билета входит одно место
+        багажа весом до 25 кг размером 30X60X80 см и ручная кладь до 5 кг.\nКаждое
+        последующее место багажа (не более 2) -100 грн или 10 USD.\nДополнительный
+        багаж перевозится при наличии свободного места в багажном отделении автобуса
+        за дополнительную оплату.","start_date":"2016-05-16","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 24 ч., до отправления рейса Возвращается 100% стоимости тарифа. Ориентировочная
+        сумма возврата 2465.91","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса. Возвращается 100% стоимости билета. Ориентировочная сумма
+        возврата 3046.12","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5DQkM0RjMzMzk2NDgwNDkxMEUzQkM2RjA1QjIyQTY2Mw","resource_id":"0","number":"MD_TEST
+        - KLR027 Косов, Ивано-Франковская, Косовский - Пльзень","name":null,"platform":"","departureDateTime":"2019-04-10
+        21:00","arrivalDateTime":"2019-04-11 11:30","departure_point_id":"1161613","arrival_point_id":"1139211","travel_time":"15:30","carrier_id":"62CBB898A029236FE0530300F00A9177","has_hub":false,"vehicle_id":"TmVvcGxhbihGcmVlKQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":false,"route":[{"point_id":"1161613","arrivalDateTime":"2019-04-10
+        20:45","departureDateTime":"2019-04-10 21:00","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401666","arrivalDateTime":"2019-04-10
+        22:15","departureDateTime":"2019-04-10 22:55","is_hub":false,"distance":72,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1147568","arrivalDateTime":"2019-04-11
+        00:35","departureDateTime":"2019-04-11 00:45","is_hub":false,"distance":170,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-11
+        03:15","departureDateTime":"2019-04-11 03:25","is_hub":false,"distance":340,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-11
+        04:30","departureDateTime":"2019-04-11 04:35","is_hub":false,"distance":421,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401676","arrivalDateTime":"2019-04-11
+        05:50","departureDateTime":"2019-04-11 05:55","is_hub":false,"distance":493,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1173022","arrivalDateTime":"2019-04-11
+        07:40","departureDateTime":"2019-04-11 07:45","is_hub":false,"distance":603,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        08:45","departureDateTime":"2019-04-11 08:55","is_hub":false,"distance":680,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139211","arrivalDateTime":"2019-04-11
+        11:30","departureDateTime":"2019-04-11 11:40","is_hub":false,"distance":890,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2490.09,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2490.09,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":null,"end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 240 ч., до отправления рейса Удерживается при возврате: 20% тарифа.
+        Ориентировочная сумма возврата 1450.54","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 120 ч.,  менее чем за 240 ч., до отправления рейса Удерживается при
+        возврате: 50% тарифа. Ориентировочная сумма возврата 725.27","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 48 ч.,  менее чем за 120 ч., до отправления рейса Удерживается при
+        возврате: 80% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 48 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса, при непредоставлении места. Возвращается 100% стоимости
+        билета. Ориентировочная сумма возврата 2490.09","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH44RDREMDE1ODc4RTVBRUY1NzRDMjQ2MzAyMENCRjVGQg","resource_id":"0","number":"MD_TEST
+        - NIK213 Коломыя, Ивано-Франковская - Хомутов","name":null,"platform":"","departureDateTime":"2019-04-10
+        15:45","arrivalDateTime":"2019-04-11 08:25","departure_point_id":"1136894","arrival_point_id":"1170618","travel_time":"17:40","carrier_id":"1207E6468F510E2CE0508E5B3557332B","has_hub":false,"vehicle_id":"TmVvcGxhbiA3MQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        15:40","departureDateTime":"2019-04-10 15:45","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"102481","arrivalDateTime":"2019-04-10
+        16:10","departureDateTime":"2019-04-10 16:15","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1147572","arrivalDateTime":"2019-04-10
+        19:55","departureDateTime":"2019-04-10 20:00","is_hub":false,"distance":1,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-10
+        22:25","departureDateTime":"2019-04-10 22:30","is_hub":false,"distance":2,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-10
+        23:45","departureDateTime":"2019-04-10 23:50","is_hub":false,"distance":3,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173600","arrivalDateTime":"2019-04-11
+        01:00","departureDateTime":"2019-04-11 01:05","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1172046","arrivalDateTime":"2019-04-11
+        02:30","departureDateTime":"2019-04-11 02:35","is_hub":false,"distance":4,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1402599","arrivalDateTime":"2019-04-11
+        03:30","departureDateTime":"2019-04-11 03:35","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        05:25","departureDateTime":"2019-04-11 05:30","is_hub":false,"distance":5,"platform":"35","check_point":false,"vehicle_id":null},{"point_id":"1170618","arrivalDateTime":"2019-04-11
+        08:25","departureDateTime":"2019-04-11 08:30","is_hub":false,"distance":6,"platform":"9","check_point":false,"vehicle_id":null}],"price":{"total":2132.29,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2132.29,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":"2015-03-23","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа.
+        Ориентировочная сумма возврата 1523.06","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,
+        более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается
+        при возврате: 50% тарифа. Ориентировочная сумма возврата 710.76","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса. Возвращается 100% стоимости билета. Ориентировочная сумма
+        возврата 2132.29","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5FQkQxNDQ0RTk0MDQzODMzRkVFNkUxREVBNDRBOUVDMQ","resource_id":"0","number":"MD_TEST
+        - NIK213 Коломыя, Ивано-Франковская - Хомутов","name":null,"platform":"","departureDateTime":"2019-04-10
+        16:15","arrivalDateTime":"2019-04-11 08:25","departure_point_id":"102481","arrival_point_id":"1170618","travel_time":"17:10","carrier_id":"1207E6468F510E2CE0508E5B3557332B","has_hub":false,"vehicle_id":"TmVvcGxhbiA3MQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"102481","arrivalDateTime":"2019-04-10
+        16:10","departureDateTime":"2019-04-10 16:15","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1147572","arrivalDateTime":"2019-04-10
+        19:55","departureDateTime":"2019-04-10 20:00","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-10
+        22:25","departureDateTime":"2019-04-10 22:30","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-10
+        23:45","departureDateTime":"2019-04-10 23:50","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173600","arrivalDateTime":"2019-04-11
+        01:00","departureDateTime":"2019-04-11 01:05","is_hub":false,"distance":3,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1172046","arrivalDateTime":"2019-04-11
+        02:30","departureDateTime":"2019-04-11 02:35","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1402599","arrivalDateTime":"2019-04-11
+        03:30","departureDateTime":"2019-04-11 03:35","is_hub":false,"distance":4,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        05:25","departureDateTime":"2019-04-11 05:30","is_hub":false,"distance":0,"platform":"35","check_point":false,"vehicle_id":null},{"point_id":"1170618","arrivalDateTime":"2019-04-11
+        08:25","departureDateTime":"2019-04-11 08:30","is_hub":false,"distance":0,"platform":"9","check_point":false,"vehicle_id":null}],"price":{"total":2132.29,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2132.29,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":"2015-03-23","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа.
+        Ориентировочная сумма возврата 1523.06","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,
+        более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается
+        при возврате: 50% тарифа. Ориентировочная сумма возврата 710.76","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса. Возвращается 100% стоимости билета. Ориентировочная сумма
+        возврата 2132.29","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5FMzU2NjFDRkJEM0NCMEVDQjNFODRGMUI0Nzg4OEIzOA","resource_id":"0","number":"MD_TEST
+        - NIK343 Ивано-Франковск - Прага","name":null,"platform":"","departureDateTime":"2019-04-10
+        14:00","arrivalDateTime":"2019-04-11 04:15","departure_point_id":"1136894","arrival_point_id":"1170618","travel_time":"15:15","carrier_id":"1207E6468F510E2CE0508E5B3557332B","has_hub":false,"vehicle_id":"TmVvcGxhbiA3MQ==","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":false,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        13:50","departureDateTime":"2019-04-10 14:00","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"102481","arrivalDateTime":"2019-04-10
+        14:25","departureDateTime":"2019-04-10 14:30","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401661","arrivalDateTime":"2019-04-10
+        15:20","departureDateTime":"2019-04-10 16:00","is_hub":false,"distance":0,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1172689","arrivalDateTime":"2019-04-10
+        19:00","departureDateTime":"2019-04-10 19:05","is_hub":false,"distance":2,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-10
+        21:30","departureDateTime":"2019-04-10 21:35","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173600","arrivalDateTime":"2019-04-11
+        00:30","departureDateTime":"2019-04-11 00:35","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1172046","arrivalDateTime":"2019-04-11
+        01:00","departureDateTime":"2019-04-11 01:05","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1402599","arrivalDateTime":"2019-04-11
+        02:00","departureDateTime":"2019-04-11 02:05","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1173594","arrivalDateTime":"2019-04-11
+        02:30","departureDateTime":"2019-04-11 02:35","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1170618","arrivalDateTime":"2019-04-11
+        04:15","departureDateTime":"2019-04-11 04:20","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null}],"price":{"total":2081.52,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2081.52,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\n","start_date":"2015-03-23","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 72 ч., до отправления рейса Удерживается при возврате: 10% тарифа.
+        Ориентировочная сумма возврата 1486.8","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,
+        более чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается
+        при возврате: 50% тарифа. Ориентировочная сумма возврата 693.84","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 24 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса. Возвращается 100% стоимости билета. Ориентировочная сумма
+        возврата 2081.52","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null},{"id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41RDczNzhCOEYyRDE3MTc3RDYyNDE5QkMzNENFMDY2Qw","resource_id":"0","number":"MD_TEST
+        - CRN001 Киев - Прага","name":null,"platform":"8-9","departureDateTime":"2019-04-10
+        21:40","arrivalDateTime":"2019-04-11 15:30","departure_point_id":"1136894","arrival_point_id":"1139211","travel_time":"18:50","carrier_id":"6F38C198099238A7E0530300F00A6122","has_hub":false,"vehicle_id":"VmFuIEhvb2wgRU9TIGNvYWNoIDIzMy1a","trip_type":"international","reservation_lifetime":40,"stop_reservation_time":null,"cancel_time":null,"return_enable":true,"can_discount":true,"sale_enable":true,"redirect_url":"","free_booking_enable":null,"reservation_enable":true,"route":[{"point_id":"1136894","arrivalDateTime":"2019-04-10
+        21:30","departureDateTime":"2019-04-10 21:40","is_hub":false,"distance":0,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1401661","arrivalDateTime":"2019-04-10
+        23:05","departureDateTime":"2019-04-11 00:20","is_hub":false,"distance":79,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1139189","arrivalDateTime":"2019-04-11
+        05:40","departureDateTime":"2019-04-11 05:50","is_hub":false,"distance":340,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1168333","arrivalDateTime":"2019-04-11
+        06:10","departureDateTime":"2019-04-11 06:15","is_hub":false,"distance":358,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"925808","arrivalDateTime":"2019-04-11
+        07:20","departureDateTime":"2019-04-11 07:25","is_hub":false,"distance":428,"platform":"7-9","check_point":false,"vehicle_id":null},{"point_id":"1168344","arrivalDateTime":"2019-04-11
+        10:25","departureDateTime":"2019-04-11 10:30","is_hub":false,"distance":618,"platform":"11","check_point":false,"vehicle_id":null},{"point_id":"1401687","arrivalDateTime":"2019-04-11
+        12:30","departureDateTime":"2019-04-11 12:35","is_hub":false,"distance":748,"platform":"","check_point":true,"vehicle_id":null},{"point_id":"1168359","arrivalDateTime":"2019-04-11
+        13:40","departureDateTime":"2019-04-11 13:45","is_hub":false,"distance":793,"platform":"","check_point":false,"vehicle_id":null},{"point_id":"1139211","arrivalDateTime":"2019-04-11
+        15:30","departureDateTime":"2019-04-11 ","is_hub":false,"distance":943,"platform":"6","check_point":false,"vehicle_id":null}],"price":{"total":2659.32,"netto":0.0,"currency":"RUB","currency_code":"643","tariffs":[{"id":null,"class":null,"code":"Y","name":"Базовый
+        тариф","cost":2659.32,"description_tariff":"Базовый тариф стоимости проезда
+        одного пассажиров в одном направлении\nВ стоимость билета входит перевозка
+        одного места багажа весом до 25 кг и одно место ручной клади. Дополнительное
+        место багажа - 10% от стоимости билета.","start_date":"2018-07-01","end_date":null,"note":"","refund_conditions":[{"condition_description":"Добровольно,  более
+        чем за 72 ч., до отправления рейса Удерживается при возврате: 25% тарифа.
+        Ориентировочная сумма возврата 1728.55","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 24 ч.,  менее чем за 72 ч., до отправления рейса Удерживается при возврате:
+        50% тарифа. Ориентировочная сумма возврата 1063.72","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  более
+        чем за 4 ч.,  менее чем за 24 ч., до отправления рейса Удерживается при возврате:
+        75% тарифа. Ориентировочная сумма возврата 398.89","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Добровольно,  менее
+        чем за 4 ч., до отправления рейса ВОЗВРАТ НЕ ДОПУСКАЕТСЯ Удерживается при
+        возврате: 100% тарифа. Ориентировочная сумма возврата 0","time_from":null,"time_till":null,"return_percent":null,"return_amount":null},{"condition_description":"Принудительно,
+        при отмене рейса, при непредоставлении места. Возвращается 100% стоимости
+        билета. Ориентировочная сумма возврата 2659.32","time_from":null,"time_till":null,"return_percent":null,"return_amount":null}]}]},"options":null}],"trips":[{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41OTI2NjU5NDQ2ODkwRTFCREE5QTVEODZFN0QzRDI5Nw","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41OTI2NjU5NDQ2ODkwRTFCREE5QTVEODZFN0QzRDI5Nw"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH43QUFCOTcyMjU0ODVDNjU3QjUzQjYxMUIyQjc0NTZCMw","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH43QUFCOTcyMjU0ODVDNjU3QjUzQjYxMUIyQjc0NTZCMw"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41RjIzMjA2ODE3OTk0MUU3MzA2NkY2Nzg4RUI5MTNDRA","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41RjIzMjA2ODE3OTk0MUU3MzA2NkY2Nzg4RUI5MTNDRA"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5GN0UwRThBOTJFMzkxMTdBNzIxNTE4RkVBMDYwMzJCQg","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5GN0UwRThBOTJFMzkxMTdBNzIxNTE4RkVBMDYwMzJCQg"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH42MTQ2MzFDRTgwQzcyMTQ0NDk2MjJBNEJCNUQzMDI3Nw","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH42MTQ2MzFDRTgwQzcyMTQ0NDk2MjJBNEJCNUQzMDI3Nw"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH4yRTQ0QTdBOEVFQjUzRjM3MjkzQTFEMjJGQzkzN0RCMg","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH4yRTQ0QTdBOEVFQjUzRjM3MjkzQTFEMjJGQzkzN0RCMg"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5GODk2MjkxRDE5OUVFNEFDQzREQjVEMjZGN0NDREU0Ng","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5GODk2MjkxRDE5OUVFNEFDQzREQjVEMjZGN0NDREU0Ng"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH42QTQ3RTVDRDdDMDM5MTVEOTI5NDQyQjRFRDkzQTg1NQ","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH42QTQ3RTVDRDdDMDM5MTVEOTI5NDQyQjRFRDkzQTg1NQ"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH44OTIyMEQ2NjVFN0VENzdFMDAyQTQyRDM1NjYxODYzNw","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH44OTIyMEQ2NjVFN0VENzdFMDAyQTQyRDM1NjYxODYzNw"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5DQkM0RjMzMzk2NDgwNDkxMEUzQkM2RjA1QjIyQTY2Mw","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5DQkM0RjMzMzk2NDgwNDkxMEUzQkM2RjA1QjIyQTY2Mw"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH44RDREMDE1ODc4RTVBRUY1NzRDMjQ2MzAyMENCRjVGQg","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH44RDREMDE1ODc4RTVBRUY1NzRDMjQ2MzAyMENCRjVGQg"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5FQkQxNDQ0RTk0MDQzODMzRkVFNkUxREVBNDRBOUVDMQ","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5FQkQxNDQ0RTk0MDQzODMzRkVFNkUxREVBNDRBOUVDMQ"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5FMzU2NjFDRkJEM0NCMEVDQjNFODRGMUI0Nzg4OEIzOA","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH5FMzU2NjFDRkJEM0NCMEVDQjNFODRGMUI0Nzg4OEIzOA"],"back_trip":[]},{"trip_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41RDczNzhCOEYyRDE3MTc3RDYyNDE5QkMzNENFMDY2Qw","direct_trip":["QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41RDczNzhCOEYyRDE3MTc3RDYyNDE5QkMzNENFMDY2Qw"],"back_trip":[]}]}'
+    http_version:
+  recorded_at: Mon, 08 Apr 2019 11:23:53 GMT
+- request:
+    method: get
+    uri: https://example.com/search/v2/trips/QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41OTI2NjU5NDQ2ODkwRTFCREE5QTVEODZFN0QzRDI5Nw/seats?date=2019-04-10&pass_count=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.15.4
+      accept:
+      - application/json
+      Authorization:
+      - Bearer 5EBE2294ECD0E0F08EAB7690D2A6EE69
+  response:
+    status:
+      code: 200
+      message:
+    headers:
+      server:
+      - nginx/1.15.9
+      date:
+      - Mon, 08 Apr 2019 11:23:54 GMT
+      content-type:
+      - application/json;charset=UTF-8
+      transfer-encoding:
+      - chunked
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"trip_id":"-5515914665547054031","maps_seat":[{"segment_id":"QlNGdGVzdGFnZW50fjE2MTF-MjM1OTAwfjE7OH5-MH41OTI2NjU5NDQ2ODkwRTFCREE5QTVEODZFN0QzRDI5Nw","map_seat":[{"id":"4234896775","num":"В1","status":"0","seat_type":"2","x":0,"y":0,"z":0},{"id":"4234896776","num":"4С","status":"2","seat_type":"1","x":1,"y":0,"z":0},{"id":"4234896777","num":"8С","status":"2","seat_type":"1","x":2,"y":0,"z":0},{"id":"4234896778","num":"12С","status":"2","seat_type":"1","x":3,"y":0,"z":0},{"id":"4234896779","num":"16С","status":"2","seat_type":"1","x":4,"y":0,"z":0},{"id":"4234896780","num":"20С","status":"2","seat_type":"1","x":5,"y":0,"z":0},{"id":"4234896781","num":"В2","status":"0","seat_type":"2","x":6,"y":0,"z":0},{"id":"4234896782","num":"","status":"0","seat_type":"0","x":7,"y":0,"z":0},{"id":"4234896783","num":"28С","status":"2","seat_type":"1","x":8,"y":0,"z":0},{"id":"4234896784","num":"32С","status":"2","seat_type":"1","x":9,"y":0,"z":0},{"id":"4234896785","num":"36С","status":"2","seat_type":"1","x":10,"y":0,"z":0},{"id":"4234896786","num":"40С","status":"2","seat_type":"1","x":11,"y":0,"z":0},{"id":"4234896787","num":"44С","status":"2","seat_type":"1","x":12,"y":0,"z":0},{"id":"4234896788","num":"49С","status":"2","seat_type":"1","x":13,"y":0,"z":0},{"id":"4234896789","num":"","status":"0","seat_type":"0","x":0,"y":1,"z":0},{"id":"4234896790","num":"3С","status":"2","seat_type":"1","x":1,"y":1,"z":0},{"id":"4234896791","num":"7С","status":"2","seat_type":"1","x":2,"y":1,"z":0},{"id":"4234896792","num":"11С","status":"2","seat_type":"1","x":3,"y":1,"z":0},{"id":"4234896793","num":"15С","status":"2","seat_type":"1","x":4,"y":1,"z":0},{"id":"4234896794","num":"19С","status":"2","seat_type":"1","x":5,"y":1,"z":0},{"id":"4234896795","num":"","status":"0","seat_type":"0","x":6,"y":1,"z":0},{"id":"4234896796","num":"","status":"0","seat_type":"0","x":7,"y":1,"z":0},{"id":"4234896797","num":"27С","status":"2","seat_type":"1","x":8,"y":1,"z":0},{"id":"4234896798","num":"31С","status":"2","seat_type":"1","x":9,"y":1,"z":0},{"id":"4234896799","num":"35С","status":"2","seat_type":"1","x":10,"y":1,"z":0},{"id":"4234896800","num":"39С","status":"2","seat_type":"1","x":11,"y":1,"z":0},{"id":"4234896801","num":"43С","status":"2","seat_type":"1","x":12,"y":1,"z":0},{"id":"4234896802","num":"48С","status":"2","seat_type":"1","x":13,"y":1,"z":0},{"id":"4234896803","num":"","status":"0","seat_type":"0","x":0,"y":2,"z":0},{"id":"4234896804","num":"","status":"0","seat_type":"0","x":1,"y":2,"z":0},{"id":"4234896805","num":"","status":"0","seat_type":"0","x":2,"y":2,"z":0},{"id":"4234896806","num":"","status":"0","seat_type":"0","x":3,"y":2,"z":0},{"id":"4234896807","num":"","status":"0","seat_type":"0","x":4,"y":2,"z":0},{"id":"4234896808","num":"","status":"0","seat_type":"0","x":5,"y":2,"z":0},{"id":"4234896809","num":"","status":"0","seat_type":"0","x":6,"y":2,"z":0},{"id":"4234896810","num":"","status":"0","seat_type":"0","x":7,"y":2,"z":0},{"id":"4234896811","num":"","status":"0","seat_type":"0","x":8,"y":2,"z":0},{"id":"4234896812","num":"","status":"0","seat_type":"0","x":9,"y":2,"z":0},{"id":"4234896813","num":"","status":"0","seat_type":"0","x":10,"y":2,"z":0},{"id":"4234896814","num":"","status":"0","seat_type":"0","x":11,"y":2,"z":0},{"id":"4234896815","num":"","status":"0","seat_type":"0","x":12,"y":2,"z":0},{"id":"4234896816","num":"47С","status":"2","seat_type":"1","x":13,"y":2,"z":0},{"id":"4234896817","num":"","status":"0","seat_type":"0","x":0,"y":3,"z":0},{"id":"4234896818","num":"2С","status":"2","seat_type":"1","x":1,"y":3,"z":0},{"id":"4234896819","num":"6С","status":"2","seat_type":"1","x":2,"y":3,"z":0},{"id":"4234896820","num":"10С","status":"1","seat_type":"1","x":3,"y":3,"z":0},{"id":"4234896821","num":"14С","status":"1","seat_type":"1","x":4,"y":3,"z":0},{"id":"4234896822","num":"18С","status":"1","seat_type":"1","x":5,"y":3,"z":0},{"id":"4234896823","num":"22С","status":"1","seat_type":"1","x":6,"y":3,"z":0},{"id":"4234896824","num":"24С","status":"1","seat_type":"1","x":7,"y":3,"z":0},{"id":"4234896825","num":"26С","status":"2","seat_type":"1","x":8,"y":3,"z":0},{"id":"4234896826","num":"30С","status":"2","seat_type":"1","x":9,"y":3,"z":0},{"id":"4234896827","num":"34С","status":"2","seat_type":"1","x":10,"y":3,"z":0},{"id":"4234896828","num":"38С","status":"2","seat_type":"1","x":11,"y":3,"z":0},{"id":"4234896829","num":"42С","status":"2","seat_type":"1","x":12,"y":3,"z":0},{"id":"4234896830","num":"46С","status":"2","seat_type":"1","x":13,"y":3,"z":0},{"id":"4234896831","num":"ВД","status":"0","seat_type":"2","x":0,"y":4,"z":0},{"id":"4234896832","num":"1С","status":"2","seat_type":"1","x":1,"y":4,"z":0},{"id":"4234896833","num":"5С","status":"2","seat_type":"1","x":2,"y":4,"z":0},{"id":"4234896834","num":"9С","status":"1","seat_type":"1","x":3,"y":4,"z":0},{"id":"4234896835","num":"13С","status":"1","seat_type":"1","x":4,"y":4,"z":0},{"id":"4234896836","num":"17С","status":"1","seat_type":"1","x":5,"y":4,"z":0},{"id":"4234896837","num":"21С","status":"1","seat_type":"1","x":6,"y":4,"z":0},{"id":"4234896838","num":"23С","status":"1","seat_type":"1","x":7,"y":4,"z":0},{"id":"4234896839","num":"25С","status":"2","seat_type":"1","x":8,"y":4,"z":0},{"id":"4234896840","num":"29С","status":"2","seat_type":"1","x":9,"y":4,"z":0},{"id":"4234896841","num":"33С","status":"2","seat_type":"1","x":10,"y":4,"z":0},{"id":"4234896842","num":"37С","status":"2","seat_type":"1","x":11,"y":4,"z":0},{"id":"4234896843","num":"41С","status":"2","seat_type":"1","x":12,"y":4,"z":0},{"id":"4234896844","num":"45С","status":"2","seat_type":"1","x":13,"y":4,"z":0}]}]}'
+    http_version:
+  recorded_at: Mon, 08 Apr 2019 11:23:54 GMT
+recorded_with: VCR 2.9.3
