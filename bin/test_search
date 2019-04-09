@@ -1,0 +1,77 @@
+#!/usr/bin/env ruby
+
+load "bin/test_auth"
+
+def search_all_trips(client:, **params)
+  response = client.search_trips(**params)
+  yield response
+
+  while response.pagination.next_page
+    response =
+      client.search_trips_page(
+        pagination_uuid: response.pagination.uuid,
+        page_number: response.pagination.next_page,
+      )
+    yield response
+  end
+end
+
+from_id = 1611 # Lviv
+to_id = 235900 # Prague
+date = Date.today + 2
+back_date = nil # Date.today + 5
+passengers_count = 1
+
+puts "\nSearch trips"
+@trips = []
+@carriers = []
+@vehicles = []
+@points = []
+search_all_trips(
+  client: @client,
+  from_id: from_id,
+  to_id: to_id,
+  date: date,
+  back_date: back_date,
+  passengers_count: passengers_count,
+  limit_for_page: 5,
+) do |response|
+  unless response.success?
+    puts response.json_body
+    exit
+  end
+  @trips += response.trips
+  @carriers = (@carriers + response.carriers).uniq(&:id)
+  @vehicles = (@vehicles + response.vehicles).uniq(&:id)
+  @points = (@points + response.points).uniq(&:id)
+end
+puts "Trips found: #{@trips.size}"
+puts "Carriers: #{@carriers.size}"
+puts "Vehicles: #{@vehicles.size}"
+puts "Points: #{@points.size}"
+
+seat_maps_limit = 2
+@trips[0...seat_maps_limit].each_with_index do |trip, index|
+  puts "\nGet trip #{index} seats"
+  response =
+    @client.get_trip_seats(
+      trip_id: trip.id,
+      date: date,
+      back_date: back_date,
+      passengers_count: passengers_count,
+    )
+  unless response.success?
+    puts response.json_body
+    next
+  end
+  @seat_maps = response.seat_maps
+  @seat_maps.each do |seat_map|
+    seat_map.floors.each do |floor|
+      puts "Floor #{floor}:"
+      puts seat_map.format_seats(floor: floor)
+    end
+  end
+end
+
+require "pry"
+Pry.start

@@ -1,0 +1,51 @@
+#!/usr/bin/env ruby
+
+load "bin/test_auth"
+
+def each_locations(client, langs: %w[en ru uk pl], limit_for_page: 10000)
+  puts "Get page 1"
+  response = client.get_locations(
+    langs: langs,
+    limit_for_page: limit_for_page,
+  )
+  response.locations.each do |location|
+    success = yield(location)
+    return if success
+  end
+
+  while response.pagination.next_page
+    puts "Get page #{response.pagination.next_page} from #{response.pagination.pages_count}"
+    response = client.get_locations_page(
+      pagination_uuid: response.pagination.uuid,
+      page_number: response.pagination.next_page,
+    )
+    response.locations.each do |location|
+      success = yield(location)
+      return if success
+    end
+  end
+end
+
+puts "\nGet locations"
+@cities_by_name = {
+  "Moscow" => nil,
+  "Kiev" => nil,
+  "Lviv" => nil,
+  "Prague" => nil,
+}
+each_locations(@client) do |location|
+  @cities_by_name.each do |name, city|
+    if city.nil? && location.name["en"] == name
+      @cities_by_name[name] = location
+      puts "#{name} found"
+    end
+  end
+  @cities_by_name.all? { |name, city| !city.nil? }
+end
+@cities_by_name.each do |name, city|
+  next unless city
+  puts "#{name} id: #{city.id}"
+end
+
+require "pry"
+Pry.start

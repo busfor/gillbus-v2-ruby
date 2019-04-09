@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "gillbus/v2"
+require "dotenv/load"
+require "benchmark"
+
+class ClientWrapper < Gillbus::V2::Client
+  # Benchmark API calls
+  def call_api(*args)
+    result = nil
+    puts Benchmark.measure {
+      result = super(*args)
+    }
+    result
+  end
+end
+
+@client = ClientWrapper.new(base_url: ENV["BASE_URL"])
+
+puts "\nAuthenticate"
+@client.authenticate!(
+  username: ENV["USERNAME"],
+  password: ENV["PASSWORD"],
+  lang: ENV["LANG"],
+  time_zone: ENV["TIME_ZONE"],
+)
+puts @client.access_token.raw_data
+
+# require "pry"
+# Pry.start
