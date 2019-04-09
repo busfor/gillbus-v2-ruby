@@ -47,5 +47,4 @@ end
   puts "#{name} id: #{city.id}"
 end
 
-require "pry"
 Pry.start

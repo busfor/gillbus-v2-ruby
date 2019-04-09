@@ -73,5 +73,4 @@ seat_maps_limit = 2
   end
 end
 
-require "pry"
 Pry.start

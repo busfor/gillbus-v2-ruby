@@ -4,6 +4,7 @@ require "bundler/setup"
 require "gillbus/v2"
 require "dotenv/load"
 require "benchmark"
+require "pry"
 
 class ClientWrapper < Gillbus::V2::Client
   # Benchmark API calls
@@ -27,5 +28,4 @@ puts "\nAuthenticate"
 )
 puts @client.access_token.raw_data
 
-# require "pry"
 # Pry.start
