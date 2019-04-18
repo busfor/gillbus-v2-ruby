@@ -28,7 +28,7 @@ describe Gillbus::V2::Structs::Segment do
     assert_equal "2", segment.departure_platform
 
     assert_equal true, segment.reservation_enabled
-    assert_equal 40 * 60, segment.reservation_lifetime
+    assert_equal 40, segment.reservation_lifetime
 
     assert_nil segment.stop_reservation_time
 
@@ -84,7 +84,7 @@ describe Gillbus::V2::Structs::Segment do
 
         it "returns correct fields" do
           assert_nil refund_condition.time_from
-          assert_equal 24 * 60 * 60, refund_condition.time_till
+          assert_equal 24 * 60, refund_condition.time_till
 
           assert_equal 87.0, refund_condition.return_percent
           assert_equal Money.new(72524, "RUB"), refund_condition.return_amount

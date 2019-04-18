@@ -22,10 +22,11 @@ module Gillbus::V2
     field :departure_platform, :string, from: "platform"
 
     field :reservation_enabled, :boolean, from: "reservation_enable"
-    field :reservation_lifetime, :time_interval_from_minutes
+    # время жизни брони в минутах
+    field :reservation_lifetime, :integer
 
-    # время до отправления рейса, после которого запрещено бронирование
-    field :stop_reservation_time, :time_interval_from_minutes
+    # время до отправления рейса в минутах, после которого запрещено бронирование
+    field :stop_reservation_time, :integer
 
     # наличие пересадки (смены автобуса)
     field :has_transfer, :boolean, from: "has_hub"

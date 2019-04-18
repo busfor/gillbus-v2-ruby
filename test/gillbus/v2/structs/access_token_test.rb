@@ -32,8 +32,8 @@ describe Gillbus::V2::Structs::AccessToken do
 
   describe "#expired?" do
     it "returns false without expires_on" do
-      @raw_data.delete("expires_on")
-      token = Gillbus::V2::Structs::AccessToken.from_raw_data(@raw_data)
+      raw_data = @raw_data.reject { |k, v| k == "expires_on" }
+      token = Gillbus::V2::Structs::AccessToken.from_raw_data(raw_data)
 
       assert_equal false, token.expired?
     end
